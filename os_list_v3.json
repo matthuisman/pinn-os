@@ -1,0 +1,116 @@
+{
+    "os_list": [
+        {
+            "description": "(Unstable) Recalbox, the open source retro gaming console for RPi1",
+            "icon": "https://archive.recalbox.com/noobs/recalboxOS.png",
+            "marketing_info": "https://archive.recalbox.com/noobs/marketing.tar",
+            "nominal_size": 2048,
+            "os_info": "https://archive.recalbox.com/noobs/rpi1/os.json",
+            "os_name": "recalboxOS-rpi1-unstable",
+            "partition_setup": "https://archive.recalbox.com/noobs/partition_setup.sh",
+            "partitions_info": "https://archive.recalbox.com/noobs/partitions.json",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
+            "supported_models": [
+              "Pi Model",
+              "Pi Compute Module",
+              "Pi Zero"
+            ],
+            "tarballs": [
+                "http://archive.recalbox.com/updates/v1.0/unstable/rpi1/boot.tar.xz",
+                "http://archive.recalbox.com/updates/v1.0/unstable/rpi1/root.tar.xz"
+            ]
+        },
+        {
+            "description": "(Unstable) Recalbox, the open source retro gaming console for RPi2",
+            "icon": "https://archive.recalbox.com/noobs/recalboxOS.png",
+            "marketing_info": "https://archive.recalbox.com/noobs/marketing.tar",
+            "nominal_size": 2048,
+            "os_info": "https://archive.recalbox.com/noobs/rpi2/os.json",
+            "os_name": "recalboxOS-rpi2-unstable",
+            "partition_setup": "https://archive.recalbox.com/noobs/partition_setup.sh",
+            "partitions_info": "https://archive.recalbox.com/noobs/partitions.json",
+            "supported_hex_revisions": "1040,1041",
+            "supported_models": [
+              "Pi 2"
+            ],
+            "tarballs": [
+                "http://archive.recalbox.com/updates/v1.0/unstable/rpi2/boot.tar.xz",
+                "http://archive.recalbox.com/updates/v1.0/unstable/rpi2/root.tar.xz"
+            ]
+        },
+        {
+            "description": "(Unstable) Recalbox, the open source retro gaming console for RPi3",
+            "icon": "https://archive.recalbox.com/noobs/recalboxOS.png",
+            "marketing_info": "https://archive.recalbox.com/noobs/marketing.tar",
+            "nominal_size": 2048,
+            "os_info": "https://archive.recalbox.com/noobs/rpi3/os.json",
+            "os_name": "recalboxOS-rpi3-unstable",
+            "partition_setup": "https://archive.recalbox.com/noobs/partition_setup.sh",
+            "partitions_info": "https://archive.recalbox.com/noobs/partitions.json",
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+              "Pi 3"
+            ],
+            "tarballs": [
+                "http://archive.recalbox.com/updates/v1.0/unstable/rpi3/boot.tar.xz",
+                "http://archive.recalbox.com/updates/v1.0/unstable/rpi3/root.tar.xz"
+            ]
+        },
+        {
+            "os_name":         "batocera_RPi3",
+            "description":     "batocera.linux, the open source retro gaming console for RPi3",
+            "release_date":    "2017-03-24",
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3"
+            ],      
+            "os_info":         "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/os.json",
+            "partitions_info": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partitions.json",
+            "icon":            "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/batocera.png",
+            "marketing_info":  "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/marketing.tar",
+            "partition_setup": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partition_setup.sh",
+            "nominal_size": 1200,
+            "tarballs": [
+                               "https://batocera-linux.xorhub.com/upgrades/rpi3/stable/last/boot.tar.xz"
+            ]
+        },
+        {
+            "os_name":         "batocera_RPi2",
+            "description":     "batocera.linux, the open source retro gaming console for RPi2",
+            "release_date":    "2017-03-24",
+            "supported_hex_revisions": "1040,1041",
+            "supported_models": [
+                "Pi 2"
+            ],    
+            "os_info":         "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/os.json",
+            "partitions_info": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partitions.json",
+            "icon":            "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/batocera.png",
+            "marketing_info":  "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/marketing.tar",
+            "partition_setup": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partition_setup.sh",
+            "nominal_size": 1200,
+            "tarballs": [
+                               "https://batocera-linux.xorhub.com/upgrades/rpi2/stable/last/boot.tar.xz"
+            ]
+        },
+        {
+            "os_name":         "batocera_RPi1",
+            "description":     "batocera.linux, the open source retro gaming console for RPi1",
+            "release_date":    "2017-03-24",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero"
+            ],  
+            "os_info":         "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/os.json",
+            "partitions_info": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partitions.json",
+            "icon":            "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/batocera.png",
+            "marketing_info":  "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/marketing.tar",
+            "partition_setup": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partition_setup.sh",
+            "nominal_size": 1200,
+            "tarballs": [
+                               "https://batocera-linux.xorhub.com/upgrades/rpi1/stable/last/boot.tar.xz"
+            ]
+        }
+    ]
+}
