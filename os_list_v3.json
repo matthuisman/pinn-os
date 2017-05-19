@@ -1,12 +1,12 @@
 {
     "os_list": [
         {
-            "description": "(Unstable) Recalbox, the open source retro gaming console for RPi1",
+            "description": "Recalbox for RPi1 (master branch version)",
             "icon": "https://archive.recalbox.com/noobs/recalboxOS.png",
             "marketing_info": "https://archive.recalbox.com/noobs/marketing.tar",
             "nominal_size": 2048,
             "os_info": "https://archive.recalbox.com/noobs/rpi1/os.json",
-            "os_name": "recalboxOS-rpi1-unstable",
+            "os_name": "recalboxOS-rpi1-master",
             "partition_setup": "https://archive.recalbox.com/noobs/partition_setup.sh",
             "partitions_info": "https://archive.recalbox.com/noobs/partitions.json",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,13,14,19,0092",
@@ -21,12 +21,12 @@
             ]
         },
         {
-            "description": "(Unstable) Recalbox, the open source retro gaming console for RPi2",
+            "description": "Recalbox for RPi2 (master branch version)",
             "icon": "https://archive.recalbox.com/noobs/recalboxOS.png",
             "marketing_info": "https://archive.recalbox.com/noobs/marketing.tar",
             "nominal_size": 2048,
             "os_info": "https://archive.recalbox.com/noobs/rpi2/os.json",
-            "os_name": "recalboxOS-rpi2-unstable",
+            "os_name": "recalboxOS-rpi2-master",
             "partition_setup": "https://archive.recalbox.com/noobs/partition_setup.sh",
             "partitions_info": "https://archive.recalbox.com/noobs/partitions.json",
             "supported_hex_revisions": "1040,1041",
@@ -39,12 +39,12 @@
             ]
         },
         {
-            "description": "(Unstable) Recalbox, the open source retro gaming console for RPi3",
+            "description": "Recalbox for RPi3 (master branch version)",
             "icon": "https://archive.recalbox.com/noobs/recalboxOS.png",
             "marketing_info": "https://archive.recalbox.com/noobs/marketing.tar",
             "nominal_size": 2048,
             "os_info": "https://archive.recalbox.com/noobs/rpi3/os.json",
-            "os_name": "recalboxOS-rpi3-unstable",
+            "os_name": "recalboxOS-rpi3-master",
             "partition_setup": "https://archive.recalbox.com/noobs/partition_setup.sh",
             "partitions_info": "https://archive.recalbox.com/noobs/partitions.json",
             "supported_hex_revisions": "2082",
