@@ -127,7 +127,7 @@
             ],  
             "os_info":         "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Kano_OS/os.json",
             "partitions_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Kano_OS/partitions.json",
-            "icon":            "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Kano_OS/batocera.png",
+            "icon":            "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Kano_OS/Kano_OS.png",
             "marketing_info":  "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Kano_OS/marketing.tar",
             "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Kano_OS/partition_setup.sh",
             "nominal_size": 3660,
