@@ -1,0 +1,19 @@
+{
+  "partitions": [
+    {
+      "label":                     "RECALBOX",
+      "tarball":                   "boot.tar.xz",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    1200,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 310,
+      "mkfs_options":              ""
+    },
+    {
+      "label":                     "SHARE",
+      "filesystem_type":           "ext4",
+      "want_maximised":            true,
+      "empty_fs":                  true
+    }
+  ]
+}
