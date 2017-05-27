@@ -64,11 +64,11 @@
             "supported_models": [
                 "Pi 3"
             ],      
-            "os_info":         "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/os.json",
-            "partitions_info": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partitions.json",
-            "icon":            "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/batocera.png",
-            "marketing_info":  "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/marketing.tar",
-            "partition_setup": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partition_setup.sh",
+            "os_info":         "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/os.json",
+            "partitions_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partitions.json",
+            "icon":            "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/batocera.png",
+            "marketing_info":  "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/marketing.tar",
+            "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partition_setup.sh",
             "nominal_size": 1200,
             "tarballs": [
                                "https://batocera-linux.xorhub.com/upgrades/rpi3/stable/last/boot.tar.xz"
@@ -82,11 +82,11 @@
             "supported_models": [
                 "Pi 2"
             ],    
-            "os_info":         "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/os.json",
-            "partitions_info": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partitions.json",
-            "icon":            "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/batocera.png",
-            "marketing_info":  "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/marketing.tar",
-            "partition_setup": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partition_setup.sh",
+            "os_info":         "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/os.json",
+            "partitions_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partitions.json",
+            "icon":            "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/batocera.png",
+            "marketing_info":  "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/marketing.tar",
+            "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partition_setup.sh",
             "nominal_size": 1200,
             "tarballs": [
                                "https://batocera-linux.xorhub.com/upgrades/rpi2/stable/last/boot.tar.xz"
@@ -102,11 +102,11 @@
                 "Pi Compute Module",
                 "Pi Zero"
             ],  
-            "os_info":         "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/os.json",
-            "partitions_info": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partitions.json",
-            "icon":            "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/batocera.png",
-            "marketing_info":  "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/marketing.tar",
-            "partition_setup": "https://downloads.sourceforge.net/project/noobs-extra/os/batocera/partition_setup.sh",
+            "os_info":         "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/os.json",
+            "partitions_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partitions.json",
+            "icon":            "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/batocera.png",
+            "marketing_info":  "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/marketing.tar",
+            "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partition_setup.sh",
             "nominal_size": 1200,
             "tarballs": [
                                "https://batocera-linux.xorhub.com/upgrades/rpi1/stable/last/boot.tar.xz"
