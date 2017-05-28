@@ -132,8 +132,8 @@
             "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Kano_OS/partition_setup.sh",
             "nominal_size": 3660,
             "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/root.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/boot.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/root.tar.xz"
             ]
         }
     ]
