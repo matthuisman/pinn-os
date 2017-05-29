@@ -73,7 +73,8 @@
             "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partition_setup.sh",
             "nominal_size": 1200,
             "tarballs": [
-                "http://batocera-linux.xorhub.com/upgrades/rpi3/stable/last/boot.tar.xz"
+               // "https://batocera-linux.xorhub.com/upgrades/rpi3/stable/last/boot.tar.xz"
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/batocera_RPi3/boot.tar.xz"
             ]
         },
         {
@@ -91,7 +92,8 @@
             "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partition_setup.sh",
             "nominal_size": 1200,
             "tarballs": [
-                "http://batocera-linux.xorhub.com/upgrades/rpi2/stable/last/boot.tar.xz"
+               // "https://batocera-linux.xorhub.com/upgrades/rpi2/stable/last/boot.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/batocera_RPi2/boot.tar.xz"
             ]
         },
         {
@@ -111,7 +113,8 @@
             "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/batocera/partition_setup.sh",
             "nominal_size": 1200,
             "tarballs": [
-                "http://batocera-linux.xorhub.com/upgrades/rpi1/stable/last/boot.tar.xz"
+              //  "https://batocera-linux.xorhub.com/upgrades/rpi1/stable/last/boot.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/batocera_RPi1/boot.tar.xz"
             ]
         },
         {
