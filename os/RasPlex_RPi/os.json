@@ -3,7 +3,7 @@
   "version": "1.8.0",
   "release_date": "2017-03-21",
   "kernel": "4.9.29",
-  "description": "A Plex Client for the Raspberry Pi computer.",
+  "description": "A Plex Client for the Raspberry Pi computer",
   "username": "root",
   "password": "rasplex",
   "supported_models": ["Pi Model","Pi Compute Module","Pi Zero"],

@@ -135,6 +135,48 @@
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/root.tar.xz"
             ]
+        },
+        {
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "icon": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi/RasPlex_RPi.png",
+            "marketing_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi/marketing.tar",
+            "nominal_size": 1024,
+            "os_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi/os.json",
+            "os_name": "RasPlex_RPi",
+            "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi/partition_setup.sh",
+            "partitions_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi/partitions.json",
+            "release_date": "2017-03-21",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module Rev",
+                "Pi Zero"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RasPlex_RPi_System.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RasPlex_RPi_Storage.tar.xz"
+            ]
+        },
+        {
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "icon": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi2/RasPlex_RPi2.png",
+            "marketing_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi2/marketing.tar",
+            "nominal_size": 1024,
+            "os_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi2/os.json",
+            "os_name": "RasPlex_RPi2",
+            "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi2/partition_setup.sh",
+            "partitions_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/RasPlex_RPi2/partitions.json",
+            "release_date": "2017-03-21",
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RasPlex_RPi2_System.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RasPlex_RPi2_Storage.tar.xz"
+            ]
         }
     ]
 }
