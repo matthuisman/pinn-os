@@ -177,6 +177,29 @@
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RasPlex_RPi2_System.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RasPlex_RPi2_Storage.tar.xz"
             ]
+        },
+        {
+            "description": "The Swiss Army Knife of streaming music on the Raspberry Pi",
+            "icon": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Pi_MusicBox/Pi_MusicBox.png",
+            "marketing_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Pi_MusicBox/marketing.tar",
+            "nominal_size": 2060,
+            "os_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Pi_MusicBox/os.json",
+            "os_name": "Pi MusicBox",
+            "partition_setup": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Pi_MusicBox/partition_setup.sh",
+            "partitions_info": "https://bitbucket.org/matthuisman/pinn-os/raw/master/os/Pi_MusicBox/partitions.json",
+            "release_date": "2017-03-22",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module"
+            ],
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/root.tar.xz"
+            ]
         }
     ]
 }
