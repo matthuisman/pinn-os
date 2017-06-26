@@ -1,14 +1,14 @@
 {
   "partitions": [
     {
-      "label": "MusicBox_boot",
+      "label": "pmb_boot",
       "filesystem_type": "FAT",
       "partition_size_nominal": 60,
       "want_maximised": false,
       "uncompressed_tarball_size": 21
     },
     {
-      "label": "MusicBox_root",
+      "label": "pmb_root",
       "filesystem_type": "ext4",
       "partition_size_nominal": 2000,
       "want_maximised": true,
