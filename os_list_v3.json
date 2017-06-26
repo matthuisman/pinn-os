@@ -197,8 +197,8 @@
                 "Pi Compute Module"
             ],
             "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/root.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/MusicBox_boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/MusicBox_root.tar.xz"
             ]
         }
     ]

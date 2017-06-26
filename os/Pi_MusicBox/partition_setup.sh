@@ -1,23 +1,18 @@
-#!/bin/sh
+#!/bin/ash
 
-set -ex
+set -x
 
-if [ -z "$part1" ] || [ -z "$part2" ]; then
-  printf "Error: missing environment variable part1 or part2\n" 1>&2
-  exit 1
-fi
+mkdir -p /tmp/mount
 
-mkdir -p /tmp/1 /tmp/2
+mount $part1 /tmp/mount
+sed /tmp/mount/cmdline.txt -i -e "s|root=/dev/[^ ]*|root=${part2}|"
+sed /tmp/mount/config/settings.ini -i -e "s|resize_once.*|resize_once = false|"
+umount /tmp/mount
+sync
 
-mount "$part1" /tmp/1
-mount "$part2" /tmp/2
-
-sed /tmp/1/cmdline.txt -i -e "s|root=/dev/[^ ]*|root=${part2}|"
-sed /tmp/1/config/settings.ini -i -e "s|resize_once.*|resize_once = false|"
-
-sed /tmp/2/etc/fstab -i -e "s|^.* / |${part2}  / |"
-sed /tmp/2/etc/fstab -i -e "s|^.* /boot |${part1}  /boot |"
-sed /tmp/2/etc/fstab -i -e '/^.* swap/s/^/#/'
-
-umount /tmp/1
-umount /tmp/2
+mount $part2 /tmp/mount
+sed /tmp/mount/etc/fstab -i -e "s|^.* / |${id2}  / |"
+sed /tmp/mount/etc/fstab -i -e "s|^.* /boot |${id1}  /boot |"
+sed /tmp/mount/etc/fstab -i -e '/^.* swap/s/^/#/'
+umount /tmp/mount
+sync
