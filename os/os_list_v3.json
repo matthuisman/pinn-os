@@ -143,6 +143,27 @@
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/pmb_boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/pmb_root.tar.xz"
             ]
+        },
+        {
+            "os_name":          "RetroX Frambu",
+            "description":      "Android TV based retro gaming console",
+            "release_date":     "2017-08-04",
+            "nominal_size":     5120,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/RetroX_Frambu/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/RetroX_Frambu/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/RetroX_Frambu/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/RetroX_Frambu/RetroX_Frambu.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/RetroX_Frambu/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/system.img.gz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/userdata.tar.xz"
+            ]
         }
     ]
 }
