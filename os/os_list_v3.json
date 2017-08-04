@@ -162,6 +162,7 @@
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/system.img.gz",
+                "",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/userdata.tar.xz"
             ]
         }
