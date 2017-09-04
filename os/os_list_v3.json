@@ -165,6 +165,28 @@
                 "",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/userdata.tar.xz"
             ]
+        },
+        {
+            "os_name":          "Flint OS",
+            "description":      "A fast, simple, and secure OS powered by Chromium OS",
+            "release_date":     "2017-05-15",
+            "nominal_size":     2048,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/Flint_OS/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/Flint_OS/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/Flint_OS/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/Flint_OS/Flint_OS.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/Flint_OS/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/EFI-SYSTEM.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/ROOT-A.img.gz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/OEM.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/STATE.tar.xz"
+            ]
         }
     ]
 }
