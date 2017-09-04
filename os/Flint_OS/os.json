@@ -1,0 +1,12 @@
+{
+    "name": "Flint OS",
+    "version": "0.3",
+    "release_date": "2017-05-15",
+    "description": "Flint OS is a fast, simple, and secure operating system, powered by Chromium OS",
+    "url": "https://flintos.io/",
+    "supported_hex_revisions": "2082",
+    "supported_models": [
+        "Pi 3",
+        "Pi Compute Module 3"
+    ]
+}
