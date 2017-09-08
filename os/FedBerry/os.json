@@ -1,0 +1,13 @@
+{
+    "name": "FedBerry",
+    "version": "25.1",
+    "release_date": "2017-06-07",
+    "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware",
+    "url": "http://fedberry.org/",
+    "supported_hex_revisions": "1040,1041,2082",
+    "supported_models": [
+        "Pi 2",
+        "Pi 3",
+        "Pi Compute Module 3"
+    ]
+}
