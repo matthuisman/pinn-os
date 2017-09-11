@@ -187,6 +187,27 @@
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/OEM.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/STATE.tar.xz"
             ]
+        },
+        {
+            "os_name":          "FedBerry",
+            "description":      "An optimised Fedora remix which fully supports all RPi2/3 hardware",
+            "release_date":     "2017-06-07",
+            "nominal_size":     4512,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/FedBerry/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/FedBerry/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/FedBerry/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/FedBerry/FedBerry.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/FedBerry/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/root.tar.xz"
+            ]
         }
     ]
 }
