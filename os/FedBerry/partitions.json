@@ -6,7 +6,7 @@
       "partition_size_nominal":    512,
       "want_maximised":            false,
       "uncompressed_tarball_size": 25,
-      "tarball": "boot.tar.xz"
+      "tarball":                   "boot.tar.xz"
     },
     {
       "label":                     "root",
@@ -14,7 +14,7 @@
       "partition_size_nominal":    4000,
       "want_maximised":            true,
       "uncompressed_tarball_size": 3500,
-      "tarball": "root.tar.xz"
+      "tarball":                   "root.tar.xz"
     }
   ]
 }
