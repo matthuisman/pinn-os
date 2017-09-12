@@ -4,6 +4,7 @@
   "release_date": "2017-03-24",
   "kernel": "4.9.13",
   "description": "batocera.linux, the open source retro gaming console for RPi3!",
+  "url": "https://batocera-linux.xorhub.com/",
   "username": "root",
   "password": "recalboxroot"
 }

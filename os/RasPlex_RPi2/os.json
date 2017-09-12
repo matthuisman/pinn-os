@@ -4,6 +4,7 @@
   "release_date": "2017-03-21",
   "kernel": "4.9.29",
   "description": "A Plex Client for the Raspberry Pi computer",
+  "url": "http://www.rasplex.com/",
   "username": "root",
   "password": "rasplex",
   "supported_models": ["Pi 2","Pi 3"],
