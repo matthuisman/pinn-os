@@ -1,0 +1,16 @@
+{
+  "name": "Amibian",
+  "version": "1.4",
+  "release_date": "2017-07-04",
+  "description": "Transform your Raspberry into an Amiga",
+  "url": "https://gunkrist79.wixsite.com/amibian/",
+  "username": "root",
+  "password": "1234",
+  "supported_hex_revisions": "1040,1041,2082,0092,0093",
+  "supported_models": [
+    "Pi 2",
+    "Pi 3",
+    "Pi Zero",
+    "Pi Compute Module 3"
+  ]
+}
