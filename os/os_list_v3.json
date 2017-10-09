@@ -15,7 +15,7 @@
             ],  
             "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/partition_setup.sh",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partition_setup.sh",
             "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/batocera.png",
             "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/marketing.tar",
             "tarballs": [
