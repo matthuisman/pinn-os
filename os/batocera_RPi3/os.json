@@ -1,10 +1,16 @@
 {
-  "name": "batocera_RPi3",
-  "version": "5.5",
-  "release_date": "2017-03-24",
-  "kernel": "4.9.13",
-  "description": "batocera.linux, the open source retro gaming console",
-  "url": "https://batocera-linux.xorhub.com/",
-  "username": "root",
-  "password": "recalboxroot"
+    "name": "batocera_RPi3",
+    "version": "5.5",
+    "release_date": "2017-03-24",
+    "kernel": "4.9.13",
+    "description": "batocera.linux, the open source retro gaming console",
+    "group": "Games",
+    "url": "https://batocera-linux.xorhub.com/",
+    "username": "root",
+    "password": "recalboxroot",
+    "supported_hex_revisions": "2082",
+    "supported_models": [
+        "Pi 3",
+        "Pi Compute Module 3"
+    ]
 }
