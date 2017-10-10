@@ -2,7 +2,7 @@
     "os_list": [
         {
             "os_name":         "batocera_RPi1",
-            "description":     "batocera.linux, the open source retro gaming console for RPi1",
+            "description":     "batocera.linux, the open source retro gaming console",
             "release_date":    "2017-03-24",
             "nominal_size":     1200,
             "group":            "Games",
@@ -13,18 +13,18 @@
                 "Pi Compute Module",
                 "Pi Zero"
             ],  
-            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partition_setup.sh",
-            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/batocera.png",
-            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/marketing.tar",
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi1/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi1/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi1/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi1/batocera_RPi1.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi1/marketing.tar",
             "tarballs": [
                 "http://batocera-linux.xorhub.com/upgrades/rpi1/stable/last/boot.tar.xz"
             ]
         },
         {
             "os_name":         "batocera_RPi2",
-            "description":     "batocera.linux, the open source retro gaming console for RPi2",
+            "description":     "batocera.linux, the open source retro gaming console",
             "release_date":    "2017-03-24",
             "nominal_size":     1200,
             "group":            "Games",
@@ -33,18 +33,18 @@
             "supported_models": [
                 "Pi 2"
             ],    
-            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partition_setup.sh",
-            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/batocera.png",
-            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/marketing.tar",
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi2/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi2/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi2/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi2/batocera_RPi2.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi2/marketing.tar",
             "tarballs": [
                 "http://batocera-linux.xorhub.com/upgrades/rpi2/stable/last/boot.tar.xz"
             ]
         },
         {
             "os_name":         "batocera_RPi3",
-            "description":     "batocera.linux, the open source retro gaming console for RPi3",
+            "description":     "batocera.linux, the open source retro gaming console",
             "release_date":    "2017-03-24",
             "nominal_size":     1200,
             "group":            "Games",
@@ -54,11 +54,11 @@
                 "Pi 3",
                 "Pi Compute Module 3"
             ],      
-            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/partition_setup.sh",
-            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/batocera.png",
-            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera/marketing.tar",
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi3/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi3/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi3/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi3/batocera_RPi3.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os/batocera_RPi3/marketing.tar",
             "tarballs": [
                "http://batocera-linux.xorhub.com/upgrades/rpi3/stable/last/boot.tar.xz"
             ]
