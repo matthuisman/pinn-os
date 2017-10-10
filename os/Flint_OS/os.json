@@ -7,6 +7,8 @@
     "group": "General",
     "username": "chronos",
     "password": "chronos",
+    "supports_usb_boot": false,
+    "supports_usb_root": true,
     "supported_hex_revisions": "2082",
     "supported_models": [
         "Pi 3",

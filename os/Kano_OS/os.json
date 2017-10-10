@@ -8,6 +8,8 @@
     "group": "Education",
     "username": "root",
     "password": "root",
+    "supports_usb_boot": false,
+    "supports_usb_root": true,
     "supported_hex_revisions": "1040,1041,2082,0092,0093",
     "supported_models": [
         "Pi 2",
