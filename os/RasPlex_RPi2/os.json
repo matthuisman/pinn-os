@@ -8,6 +8,8 @@
     "group": "Media",
     "username": "root",
     "password": "rasplex",
+    "supports_usb_boot": true,
+    "supports_usb_root": true,
     "supported_hex_revisions": "1040,1041,2082",
     "supported_models": [
         "Pi 2",

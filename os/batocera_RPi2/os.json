@@ -4,10 +4,12 @@
     "release_date": "2017-03-24",
     "kernel": "4.9.13",
     "description": "batocera.linux, the open source retro gaming console",
-    "group": "Games",
     "url": "https://batocera-linux.xorhub.com/",
+    "group": "Games",
     "username": "root",
     "password": "recalboxroot",
+    "supports_usb_boot": false,
+    "supports_usb_root": true,
     "supported_hex_revisions": "1040,1041",
     "supported_models": [
         "Pi 2"
