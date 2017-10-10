@@ -1,12 +1,17 @@
 {
-  "name": "RasPlex_RPi",
-  "version": "1.8.0",
-  "release_date": "2017-03-21",
-  "kernel": "4.9.29",
-  "description": "A Plex Client for the Raspberry Pi computer",
-  "url": "http://www.rasplex.com/",
-  "username": "root",
-  "password": "rasplex",
-  "supported_models": ["Pi Model","Pi Compute Module","Pi Zero"],
-  "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093"
+    "name": "RasPlex_RPi",
+    "version": "1.8.0",
+    "release_date": "2017-03-21",
+    "kernel": "4.9.29",
+    "description": "A Plex Client for the Raspberry Pi computer",
+    "url": "http://www.rasplex.com/",
+    "group": "Media",
+    "username": "root",
+    "password": "rasplex",
+    "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
+    "supported_models": [
+        "Pi Model",
+        "Pi Compute Module",
+        "Pi Zero"
+    ]
 }

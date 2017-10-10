@@ -4,6 +4,7 @@
     "release_date": "2017-06-07",
     "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware",
     "url": "http://fedberry.org/",
+    "group": "General",
     "supported_hex_revisions": "1040,1041,2082",
     "supported_models": [
         "Pi 2",

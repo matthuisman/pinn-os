@@ -4,6 +4,7 @@
     "release_date": "2017-05-15",
     "description": "A fast, simple, and secure OS powered by Chromium OS",
     "url": "https://flintos.io/",
+    "group": "General",
     "username": "chronos",
     "password": "chronos",
     "supported_hex_revisions": "2082",

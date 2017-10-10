@@ -4,6 +4,7 @@
     "release_date": "2017-08-04",
     "description": "Android TV based retro gaming console",
     "url": "http://www.retrox.tv/frambu/",
+    "group": "Games",
     "supported_hex_revisions": "2082",
     "supported_models": [
         "Pi 3",
