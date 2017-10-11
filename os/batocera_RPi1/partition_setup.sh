@@ -11,6 +11,6 @@ mkdir -p /tmp/1
 
 mount "$part1" /tmp/1
 
-sed /tmp/1/cmdline.txt -i -e "s|dev=/dev/[^ ]*|dev=${part1}|"
+sed /tmp/1/cmdline.txt -i -e "s|dev=[^ ]*|dev=${part1}|"
 
 umount /tmp/1

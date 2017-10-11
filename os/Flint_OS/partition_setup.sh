@@ -11,7 +11,7 @@ mkdir -p /tmp/1
 mkdir -p /tmp/2
 
 mount "$part1" /tmp/1
-sed /tmp/1/cmdline.txt -i -e "s|root=/dev/[^ ]*|root=${part2}|"
+sed /tmp/1/cmdline.txt -i -e "s|root=[^ ]*|root=${part2}|"
 umount /tmp/1
 
 part1_num=`echo "$part1" | sed -e 's/^.*[^0-9]\([0-9]\+\)$/\1/'`

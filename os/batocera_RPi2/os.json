@@ -9,7 +9,7 @@
     "username": "root",
     "password": "recalboxroot",
     "supports_usb_boot": false,
-    "supports_usb_root": true,
+    "supports_usb_root": false,
     "supported_hex_revisions": "1040,1041",
     "supported_models": [
         "Pi 2"

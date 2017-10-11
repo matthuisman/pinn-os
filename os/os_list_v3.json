@@ -1,12 +1,14 @@
 {
     "os_list": [
         {
-            "os_name":         "batocera_RPi1",
-            "description":     "batocera.linux, the open source retro gaming console",
-            "release_date":    "2017-03-24",
-            "nominal_size":     1200,
-            "group":            "Games",
-            "url":              "https://batocera-linux.xorhub.com/",
+            "os_name": "batocera_RPi1",
+            "description": "batocera.linux, the open source retro gaming console",
+            "release_date": "2017-03-24",
+            "nominal_size": 1200,
+            "url": "https://batocera-linux.xorhub.com/",
+            "group": "Games",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
                 "Pi Model",
@@ -23,12 +25,14 @@
             ]
         },
         {
-            "os_name":         "batocera_RPi2",
-            "description":     "batocera.linux, the open source retro gaming console",
-            "release_date":    "2017-03-24",
-            "nominal_size":     1200,
-            "group":            "Games",
-            "url":              "https://batocera-linux.xorhub.com/",
+            "os_name": "batocera_RPi2",
+            "description": "batocera.linux, the open source retro gaming console",
+            "release_date": "2017-03-24",
+            "nominal_size": 1200,
+            "url": "https://batocera-linux.xorhub.com/",
+            "group": "Games",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "supported_hex_revisions": "1040,1041",
             "supported_models": [
                 "Pi 2"
@@ -43,12 +47,14 @@
             ]
         },
         {
-            "os_name":         "batocera_RPi3",
-            "description":     "batocera.linux, the open source retro gaming console",
-            "release_date":    "2017-03-24",
-            "nominal_size":     1200,
-            "group":            "Games",
-            "url":              "https://batocera-linux.xorhub.com/",
+            "os_name": "batocera_RPi3",
+            "description": "batocera.linux, the open source retro gaming console",
+            "release_date": "2017-03-24",
+            "nominal_size": 1200,
+            "url": "https://batocera-linux.xorhub.com/",
+            "group": "Games",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "supported_hex_revisions": "2082",
             "supported_models": [
                 "Pi 3",
@@ -64,12 +70,14 @@
             ]
         },
         {
-            "os_name":         "Kano_OS",
-            "description":     "An OS for Kids",
-            "release_date":    "2015-11-03",
-            "nominal_size":     3660,
-            "group":            "Education",
-            "url":              "https://kano.me/",
+            "os_name": "Kano_OS",
+            "description": "An OS for Kids",
+            "release_date": "2015-11-03",
+            "nominal_size": 3660,
+            "url": "https://kano.me/",
+            "group": "Education",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "supported_hex_revisions": "1040,1041,2082,0092,0093",
             "supported_models": [
                 "Pi 2",
@@ -88,12 +96,14 @@
             ]
         },
         {
-            "os_name":          "RasPlex_RPi",
-            "description":      "A Plex Client for the Raspberry Pi computer",
-            "release_date":     "2017-03-21",
-            "nominal_size":     1024,
-            "group":            "Media",
-            "url":              "http://www.rasplex.com/",
+            "os_name": "RasPlex_RPi",
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "release_date": "2017-03-21",
+            "nominal_size": 1024,
+            "url": "http://www.rasplex.com/",
+            "group": "Media",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092",
             "supported_models": [
                 "Pi Model",
@@ -111,12 +121,14 @@
             ]
         },
         {
-            "os_name":          "RasPlex_RPi2",
-            "description":      "A Plex Client for the Raspberry Pi computer",
-            "release_date":     "2017-03-21",
-            "nominal_size":     1024,
-            "group":            "Media",
-            "url":              "http://www.rasplex.com/",
+            "os_name": "RasPlex_RPi2",
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "release_date": "2017-03-21",
+            "nominal_size": 1024,
+            "url": "http://www.rasplex.com/",
+            "group": "Media",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi 2",
@@ -134,12 +146,14 @@
             ]
         },
         {
-            "os_name":          "Pi MusicBox",
-            "description":      "The Swiss Army Knife of streaming music on the Raspberry Pi",
-            "release_date":     "2017-03-22",
-            "nominal_size":     2060,
-            "group":            "Media",
-            "url":              "http://www.pimusicbox.com/",
+            "os_name": "Pi MusicBox",
+            "description": "The Swiss Army Knife of streaming music on the Raspberry Pi",
+            "release_date": "2017-03-22",
+            "nominal_size": 2060,
+            "url": "http://www.pimusicbox.com/",
+            "group": "Media",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
             "supported_models": [
                 "Pi Model",
@@ -159,12 +173,14 @@
             ]
         },
         {
-            "os_name":          "RetroX Frambu",
-            "description":      "Android TV based retro gaming console",
-            "release_date":     "2017-08-04",
-            "nominal_size":     5120,
-            "group":            "Games",
-            "url":              "http://www.retrox.tv/",
+            "os_name": "RetroX Frambu",
+            "description": "Android TV based retro gaming console",
+            "release_date": "2017-08-04",
+            "nominal_size": 5120,
+            "url": "http://www.retrox.tv/",
+            "group": "Games",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "supported_hex_revisions": "2082",
             "supported_models": [
                 "Pi 3",
@@ -183,12 +199,14 @@
             ]
         },
         {
-            "os_name":          "Flint OS",
-            "description":      "A fast, simple, and secure OS powered by Chromium OS",
-            "release_date":     "2017-05-15",
-            "nominal_size":     2048,
-            "group":            "General",
-            "url":              "https://flintos.io/",
+            "os_name": "Flint OS",
+            "description": "A fast, simple, and secure OS powered by Chromium OS",
+            "release_date": "2017-05-15",
+            "nominal_size": 2048,
+            "url": "https://flintos.io/",
+            "group": "General",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "supported_hex_revisions": "2082",
             "supported_models": [
                 "Pi 3",
@@ -207,12 +225,14 @@
             ]
         },
         {
-            "os_name":          "FedBerry",
-            "description":      "An optimised Fedora remix which fully supports all RPi2/3 hardware",
-            "release_date":     "2017-06-07",
-            "nominal_size":     4512,
-            "group":            "General",
-            "url":              "http://fedberry.org/",
+            "os_name": "FedBerry",
+            "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware",
+            "release_date": "2017-06-07",
+            "nominal_size": 4512,
+            "url": "http://fedberry.org/",
+            "group": "General",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi 2",
@@ -230,12 +250,14 @@
             ]
         },
         {
-            "os_name":          "Amibian",
-            "description":      "Transform your Raspberry into an Amiga",
-            "release_date":     "2017-07-04",
-            "nominal_size":     1270,
-            "group":            "General",
-            "url":              "https://gunkrist79.wixsite.com/amibian/",
+            "os_name": "Amibian",
+            "description": "Transform your Raspberry into an Amiga",
+            "release_date": "2017-07-04",
+            "nominal_size": 1270,
+            "url": "https://gunkrist79.wixsite.com/amibian/",
+            "group": "General",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "supported_hex_revisions": "1040,1041,2082,0092,0093",
             "supported_models": [
                 "Pi 2",
