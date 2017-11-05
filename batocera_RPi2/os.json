@@ -10,6 +10,7 @@
     "password": "recalboxroot",
     "supports_usb_boot": true,
     "supports_usb_root": true,
+    "download_size": 348266852,
     "supported_hex_revisions": "1040,1041",
     "supported_models": [
         "Pi 2"

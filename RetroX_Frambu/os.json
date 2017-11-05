@@ -7,6 +7,7 @@
     "group": "Games",
     "supports_usb_boot": false,
     "supports_usb_root": false,
+    "download_size": 215298128,
     "supported_hex_revisions": "2082",
     "supported_models": [
         "Pi 3",

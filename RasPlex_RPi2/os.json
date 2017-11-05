@@ -10,6 +10,7 @@
     "password": "rasplex",
     "supports_usb_boot": true,
     "supports_usb_root": true,
+    "download_size": 116592712,
     "supported_hex_revisions": "1040,1041,2082",
     "supported_models": [
         "Pi 2",

@@ -7,6 +7,7 @@
     "group": "General",
     "supports_usb_boot": true,
     "supports_usb_root": true,
+    "download_size": 686459008,
     "supported_hex_revisions": "1040,1041,2082",
     "supported_models": [
         "Pi 2",
