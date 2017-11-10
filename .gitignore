@@ -1,3 +1,4 @@
 *.tar.xz
+*.img.gz
 slides_vga/
 slides/
