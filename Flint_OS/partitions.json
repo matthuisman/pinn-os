@@ -1,37 +1,37 @@
 {
   "partitions": [
     {
-      "label": "EFI-SYSTEM",
-      "filesystem_type": "FAT",
-      "partition_size_nominal": 32,
-      "want_maximised": false,
-      "uncompressed_tarball_size": 32,
-      "tarball": "EFI-SYSTEM.tar.xz"
+      "label":                     "EFI-SYSTEM",
+      "tarball":                   "EFI-SYSTEM.tar.xz",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    32,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 32
     },
     {
-      "label": "ROOT-A",
-      "filesystem_type": "raw",
-      "partition_size_nominal": 1000,
-      "want_maximised": false,
-      "uncompressed_tarball_size": 890,
-      "tarball": "ROOT-A.img.gz"
+      "label":                     "ROOT-A",
+      "tarball":                   "ROOT-A.img.gz",
+      "filesystem_type":           "raw",
+      "partition_size_nominal":    1000,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 890
     },
     {
-      "label": "OEM",
-      "filesystem_type": "ext4",
-      "partition_size_nominal": 16,
-      "want_maximised": false,
-      "uncompressed_tarball_size": 16,
-      "tarball": "OEM.tar.xz"
+      "label":                     "OEM",
+      "tarball":                   "OEM.tar.xz",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    16,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 16
     },
     {
-      "label": "STATE",
-      "filesystem_type": "ext4",
-      "partition_size_nominal": 1000,
-      "want_maximised": true,
-      "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 300,
-      "tarball": "STATE.tar.xz"
+      "label":                     "STATE",
+      "tarball":                   "STATE.tar.xz",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    1000,
+      "want_maximised":            true,
+      "mkfs_options":              "-O ^huge_file",
+      "uncompressed_tarball_size": 300
     }
   ]
 }

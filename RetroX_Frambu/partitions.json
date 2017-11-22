@@ -1,38 +1,38 @@
 {
   "partitions": [
     {
-      "label": "boot",
-      "filesystem_type": "FAT",
-      "partition_size_nominal": 512,
-      "want_maximised": false,
-      "uncompressed_tarball_size": 10,
-      "tarball": "boot.tar.xz"
+      "label":                     "boot",
+      "tarball":                   "boot.tar.xz",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    512,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 10
     },
     {
-      "label": "system",
-      "filesystem_type": "raw",
-      "partition_size_nominal": 2048,
-      "want_maximised": false,
-      "uncompressed_tarball_size": 2048,
-      "tarball": "system.img.gz"
+      "label":                     "system",
+      "tarball":                   "system.img.gz",
+      "filesystem_type":           "raw",
+      "partition_size_nominal":    2048,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 2048
     },
     {
-      "label": "cache",
-      "filesystem_type": "ext4",
-      "partition_size_nominal": 512,
-      "want_maximised": false,
-      "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 0,
-      "empty_fs": true
+      "label":                     "cache",
+      "empty_fs":                  true,
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    512,
+      "want_maximised":            false,
+      "mkfs_options":              "-O ^huge_file",
+      "uncompressed_tarball_size": 0
     },
     {
-      "label": "userdata",
-      "filesystem_type": "ext4",
-      "partition_size_nominal": 2048,
-      "want_maximised": true,
-      "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 65,
-      "tarball": "userdata.tar.xz"
+      "label":                     "userdata",
+      "tarball":                   "userdata.tar.xz",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    2048,
+      "want_maximised":            true,
+      "mkfs_options":              "-O ^huge_file",
+      "uncompressed_tarball_size": 65
     }
   ]
 }

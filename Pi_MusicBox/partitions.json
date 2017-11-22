@@ -1,18 +1,20 @@
 {
   "partitions": [
     {
-      "label": "pmb_boot",
-      "filesystem_type": "FAT",
-      "partition_size_nominal": 60,
-      "want_maximised": false,
+      "label":                     "pmb_boot",
+      "tarball":                   "pmb_boot.tar.xz",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    60,
+      "want_maximised":            false,
       "uncompressed_tarball_size": 21
     },
     {
-      "label": "pmb_root",
-      "filesystem_type": "ext4",
-      "partition_size_nominal": 2000,
-      "want_maximised": true,
-      "mkfs_options": "-O ^huge_file",
+      "label":                     "pmb_root",
+      "tarball":                   "pmb_root.tar.xz",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    2000,
+      "want_maximised":            true,
+      "mkfs_options":              "-O ^huge_file",
       "uncompressed_tarball_size": 815
     }
   ]
