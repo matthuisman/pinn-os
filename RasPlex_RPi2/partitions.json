@@ -1,7 +1,8 @@
 {
   "partitions": [
     {
-      "label":                     "RasPlex_RPi2_System",
+      "label":                     "RaSystem",
+      "tarball":                   "RasPlex_RPi2_System.tar.xz",
       "filesystem_type":           "FAT",
       "partition_size_nominal":    512,
       "want_maximised":            false,
@@ -9,7 +10,8 @@
       "mkfs_options":              ""
     },
     {
-      "label":                     "RasPlex_RPi2_Storage",
+      "label":                     "RaStorage",
+      "tarball":                   "RasPlex_RPi2_Storage.tar.xz",
       "filesystem_type":           "ext4",
       "partition_size_nominal":    512,
       "want_maximised":            true,
