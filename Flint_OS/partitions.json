@@ -2,7 +2,6 @@
   "partitions": [
     {
       "label":                     "EFI-SYSTEM",
-      "tarball":                   "EFI-SYSTEM.tar.xz",
       "filesystem_type":           "FAT",
       "partition_size_nominal":    32,
       "want_maximised":            false,
@@ -10,7 +9,6 @@
     },
     {
       "label":                     "ROOT-A",
-      "tarball":                   "ROOT-A.img.gz",
       "filesystem_type":           "raw",
       "partition_size_nominal":    1000,
       "want_maximised":            false,
@@ -18,7 +16,6 @@
     },
     {
       "label":                     "OEM",
-      "tarball":                   "OEM.tar.xz",
       "filesystem_type":           "ext4",
       "partition_size_nominal":    16,
       "want_maximised":            false,
@@ -26,7 +23,6 @@
     },
     {
       "label":                     "STATE",
-      "tarball":                   "STATE.tar.xz",
       "filesystem_type":           "ext4",
       "partition_size_nominal":    1000,
       "want_maximised":            true,

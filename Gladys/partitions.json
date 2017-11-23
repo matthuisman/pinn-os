@@ -2,7 +2,6 @@
   "partitions": [
     {
       "label":                     "boot",
-      "tarball":                   "boot.tar.xz",
       "filesystem_type":           "FAT",
       "mkfs_options":              "-F 32",
       "partition_size_nominal":    69,
@@ -11,7 +10,6 @@
     },
     {
       "label":                     "root",
-      "tarball":                   "root.tar.xz",
       "filesystem_type":           "ext4",
       "mkfs_options":              "-O ^huge_file",
       "partition_size_nominal":    2100,

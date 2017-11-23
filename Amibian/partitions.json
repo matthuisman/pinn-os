@@ -2,7 +2,6 @@
   "partitions": [
     {
       "label":                     "boot",
-      "tarball":                   "boot.tar.xz",
       "filesystem_type":           "FAT",
       "partition_size_nominal":    70,
       "want_maximised":            false,
@@ -10,7 +9,6 @@
     },
     {
       "label":                     "root",
-      "tarball":                   "root.tar.xz",
       "filesystem_type":           "ext4",
       "partition_size_nominal":    1200,
       "want_maximised":            true,

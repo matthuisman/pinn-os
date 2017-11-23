@@ -2,7 +2,6 @@
   "partitions": [
     {
       "label":                     "pmb_boot",
-      "tarball":                   "pmb_boot.tar.xz",
       "filesystem_type":           "FAT",
       "partition_size_nominal":    60,
       "want_maximised":            false,
@@ -10,7 +9,6 @@
     },
     {
       "label":                     "pmb_root",
-      "tarball":                   "pmb_root.tar.xz",
       "filesystem_type":           "ext4",
       "partition_size_nominal":    2000,
       "want_maximised":            true,
