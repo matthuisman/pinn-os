@@ -121,8 +121,8 @@
             "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/RasPlex_RPi.png",
             "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/marketing.tar",
             "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RasPlex_RPi_System.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RasPlex_RPi_Storage.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaSystem.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaStorage.tar.xz"
             ]
         },
         {
@@ -147,8 +147,8 @@
             "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/RasPlex_RPi2.png",
             "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/marketing.tar",
             "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RasPlex_RPi2_System.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RasPlex_RPi2_Storage.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaSystem.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaStorage.tar.xz"
             ]
         },
         {
