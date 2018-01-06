@@ -1,7 +1,7 @@
 {
     "name": "Kano_OS",
-    "version": "jessie",
-    "release_date": "2015-11-03",
+    "version": "Beta 3.14.0",
+    "release_date": "2017-12-18",
     "kernel": "4.1",
     "description": "An OS for Kids",
     "url": "http://www.kano.me/",
@@ -10,7 +10,7 @@
     "password": "root",
     "supports_usb_boot": false,
     "supports_usb_root": false,
-    "download_size": 964510824,
+    "download_size": 1148971832,
     "supported_hex_revisions": "1040,1041,2082,0092,0093",
     "supported_models": [
         "Pi 2",

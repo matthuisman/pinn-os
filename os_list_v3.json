@@ -75,9 +75,9 @@
         {
             "os_name": "Kano_OS",
             "description": "An OS for Kids",
-            "release_date": "2015-11-03",
+            "release_date": "2017-12-18",
             "nominal_size": 3660,
-            "download_size": 964510824,
+            "download_size": 1148971832,
             "url": "https://kano.me/",
             "group": "Education",
             "supports_usb_boot": false,
