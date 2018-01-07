@@ -312,6 +312,34 @@
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/root.tar.xz"
             ]
+        },
+        {
+            "os_name": "DietPi",
+            "description": "Highly optimized minimal Debian OS",
+            "release_date": "2017-12-10",
+            "nominal_size": 660,
+            "download_size": 109416448,
+            "url": "http://dietpi.com/",
+            "group": "Minimal",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/DietPi.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/root.tar.xz"
+            ]
         }
     ]
 }
