@@ -1,0 +1,373 @@
+{
+    "os_list": [
+        {
+            "os_name": "batocera_RPi1",
+            "description": "batocera.linux, the open source retro gaming console",
+            "release_date": "2017-03-24",
+            "nominal_size": 1200,
+            "download_size": 291424680,
+            "url": "https://batocera-linux.xorhub.com/",
+            "group": "Games",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero"
+            ],  
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/batocera_RPi1.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/marketing.tar",
+            "tarballs": [
+                "http://batocera-linux.xorhub.com/upgrades/rpi1/stable/last/boot.tar.xz"
+            ]
+        },
+        {
+            "os_name": "batocera_RPi2",
+            "description": "batocera.linux, the open source retro gaming console",
+            "release_date": "2017-03-24",
+            "nominal_size": 1200,
+            "download_size": 348266852,
+            "url": "https://batocera-linux.xorhub.com/",
+            "group": "Games",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "1040,1041",
+            "supported_models": [
+                "Pi 2"
+            ],    
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/batocera_RPi2.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/marketing.tar",
+            "tarballs": [
+                "http://batocera-linux.xorhub.com/upgrades/rpi2/stable/last/boot.tar.xz"
+            ]
+        },
+        {
+            "os_name": "batocera_RPi3",
+            "description": "batocera.linux, the open source retro gaming console",
+            "release_date": "2017-03-24",
+            "nominal_size": 1200,
+            "download_size": 361265676,
+            "url": "https://batocera-linux.xorhub.com/",
+            "group": "Games",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],      
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/batocera_RPi3.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/marketing.tar",
+            "tarballs": [
+               "http://batocera-linux.xorhub.com/upgrades/rpi3/stable/last/boot.tar.xz"
+            ]
+        },
+        {
+            "os_name": "Kano_OS",
+            "description": "An OS for Kids",
+            "release_date": "2017-12-18",
+            "nominal_size": 3660,
+            "download_size": 1148971832,
+            "url": "https://kano.me/",
+            "group": "Education",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "supported_hex_revisions": "1040,1041,2082,0092,0093",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Zero",
+                "Pi Compute Module 3"
+            ],  
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/Kano_OS.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Kano_OS/root.tar.xz"
+            ]
+        },
+        {
+            "os_name": "RasPlex_RPi",
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "release_date": "2017-03-21",
+            "nominal_size": 1024,
+            "download_size": 116791108,
+            "url": "http://www.rasplex.com/",
+            "group": "Media",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module Rev",
+                "Pi Zero"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/RasPlex_RPi.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaSystem.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaStorage.tar.xz"
+            ]
+        },
+        {
+            "os_name": "RasPlex_RPi2",
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "release_date": "2017-03-21",
+            "nominal_size": 1024,
+            "download_size": 116592712,
+            "url": "http://www.rasplex.com/",
+            "group": "Media",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/RasPlex_RPi2.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaSystem.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaStorage.tar.xz"
+            ]
+        },
+        {
+            "os_name": "Pi MusicBox",
+            "description": "The Swiss Army Knife of streaming music on the Raspberry Pi",
+            "release_date": "2017-03-22",
+            "nominal_size": 2060,
+            "download_size": 198043064,
+            "url": "http://www.pimusicbox.com/",
+            "group": "Media",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/Pi_MusicBox.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/pmb_boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/pmb_root.tar.xz"
+            ]
+        },
+        {
+            "os_name": "RetroX Frambu",
+            "description": "Android TV based retro gaming console",
+            "release_date": "2017-08-04",
+            "nominal_size": 5120,
+            "download_size": 215298128,
+            "url": "http://www.retrox.tv/",
+            "group": "Games",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/RetroX_Frambu.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/system.img.gz",
+                "",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/userdata.tar.xz"
+            ]
+        },
+        {
+            "os_name": "Flint OS",
+            "description": "A fast, simple, and secure OS powered by Chromium OS",
+            "release_date": "2017-05-15",
+            "nominal_size": 2048,
+            "download_size": 435287898,
+            "url": "https://flintos.io/",
+            "group": "General",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/Flint_OS.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/EFI-SYSTEM.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/ROOT-A.img.gz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/OEM.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/STATE.tar.xz"
+            ]
+        },
+        {
+            "os_name": "FedBerry",
+            "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware",
+            "release_date": "2017-06-07",
+            "nominal_size": 4512,
+            "download_size": 686459008,
+            "url": "http://fedberry.org/",
+            "group": "General",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "1040,1041,2082",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/FedBerry.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/root.tar.xz"
+            ]
+        },
+        {
+            "os_name": "Amibian",
+            "description": "Transform your Raspberry into an Amiga",
+            "release_date": "2017-07-04",
+            "nominal_size": 1270,
+            "download_size": 213913328,
+            "url": "https://gunkrist79.wixsite.com/amibian/",
+            "group": "General",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "supported_hex_revisions": "1040,1041,2082,0092,0093",
+            "supported_models": [
+                "Pi 2",
+                "Pi 3",
+                "Pi Zero",
+                "Pi Compute Module 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/Amibian.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Amibian/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Amibian/root.tar.xz"
+            ]
+        },
+        {
+            "os_name": "Gladys",
+            "description": "Gladys, your home assistant.",
+            "release_date": "2017-05-16",
+            "nominal_size": 2169,
+            "download_size": 625933064,
+            "url": "https://gladysproject.com",
+            "group": "General",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/Gladys.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/root.tar.xz"
+            ]
+        },
+        {
+            "os_name": "DietPi",
+            "description": "Highly optimized minimal Debian OS",
+            "release_date": "2017-12-10",
+            "nominal_size": 660,
+            "download_size": 109416448,
+            "url": "http://dietpi.com/",
+            "group": "Minimal",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi 3",
+                "Pi Compute Module"
+            ],
+            "os_info":          "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/os.json",
+            "partitions_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
+            "partition_setup":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partition_setup.sh",
+            "icon":             "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/DietPi.png",
+            "marketing_info":   "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/marketing.tar",
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/root.tar.xz"
+            ]
+        },
+        {
+            "os_name": "resinOS_RPi3",
+            "description": "2.3.0 Rev1",
+            "release_date": "2017-07-17",
+            "nominal_size": 1184,
+            "download_size": 67927100,
+            "url": "https://resinos.io/",
+            "group": "Minimal",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/resinOS_RPi3.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/marketing.tar",
+            "tarballs": [
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-boot.tar.xz",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-rootA.tar.xz",
+               "",
+               "",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-data.tar.xz"
+            ]
+        }
+    ]
+}
