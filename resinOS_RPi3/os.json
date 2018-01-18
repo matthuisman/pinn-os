@@ -8,8 +8,8 @@
     "group": "Minimal",
     "username": "root",
     "password": "",
-    "supports_usb_boot": false,
-    "supports_usb_root": false,
+    "supports_usb_boot": true,
+    "supports_usb_root": true,
     "download_size": 67927100,
     "supported_hex_revisions": "2082",
     "supported_models": [
