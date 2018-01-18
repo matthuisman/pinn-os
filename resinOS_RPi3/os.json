@@ -1,0 +1,19 @@
+{
+    "name": "resinOS_RPi3",
+    "version": "2.3.0 Rev1",
+    "release_date": "2017-07-17",
+    "kernel": "4.4.50",
+    "description": "Run Docker containers on your Raspberry Pi",
+    "url": "https://resinos.io/",
+    "group": "Minimal",
+    "username": "root",
+    "password": "",
+    "supports_usb_boot": false,
+    "supports_usb_root": false,
+    "download_size": 67927100,
+    "supported_hex_revisions": "2082",
+    "supported_models": [
+        "Pi 3",
+        "Pi Compute Module 3"
+    ]
+}

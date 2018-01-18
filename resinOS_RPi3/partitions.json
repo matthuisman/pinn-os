@@ -1,0 +1,39 @@
+{
+  "partitions": [
+    {
+      "label":                     "resin-boot",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    40,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 27
+    },
+    {
+      "label":                     "resin-rootA",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    312,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 250
+    },
+    {
+      "label":                     "resin-rootB",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    312,
+      "want_maximised":            false,
+      "empty_fs":                  true
+    },
+    {
+      "label":                     "resin-state",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    20,
+      "want_maximised":            false,
+      "empty_fs":                  true
+    },
+    {
+      "label":                     "resin-data",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    500,
+      "want_maximised":            true,
+      "uncompressed_tarball_size": 131
+    }
+  ]
+}
