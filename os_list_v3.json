@@ -340,6 +340,34 @@
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/root.tar.xz"
             ]
+        },
+        {
+            "os_name": "resinOS_RPi3",
+            "description": "2.3.0 Rev1",
+            "release_date": "2017-07-17",
+            "nominal_size": 1184,
+            "download_size": 67927100,
+            "url": "https://resinos.io/",
+            "group": "Minimal",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],      
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/resinOS_RPi3.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/marketing.tar",
+            "tarballs": [
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-boot.tar.xz",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-rootA.tar.xz",
+               "",
+               "",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-data.tar.xz",
+            ]
         }
     ]
 }
