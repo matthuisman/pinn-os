@@ -368,6 +368,62 @@
                "",
                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-data.tar.xz"
             ]
+        },
+        {
+            "os_name": "resinOS_RPi2",
+            "description": "A minimal reliable OS to run Docker containers",
+            "release_date": "2017-07-31",
+            "nominal_size": 1184,
+            "download_size": 67797140,
+            "url": "https://resinos.io/",
+            "group": "Minimal",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "1040,1041",
+            "supported_models": [
+                "Pi 2"
+            ],
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/resinOS_RPi2.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/marketing.tar",
+            "tarballs": [
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi2/resin-boot.tar.xz",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi2/resin-rootA.tar.xz",
+               "",
+               "",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi2/resin-data.tar.xz"
+            ]
+        },
+        {
+            "os_name": "resinOS_RPi1",
+            "description": "A minimal reliable OS to run Docker containers",
+            "release_date": "2017-07-31",
+            "nominal_size": 1184,
+            "download_size": 67975392,
+            "url": "https://resinos.io/",
+            "group": "Minimal",
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero"
+            ],
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/resinOS_RPi1.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/marketing.tar",
+            "tarballs": [
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-boot.tar.xz",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-rootA.tar.xz",
+               "",
+               "",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-data.tar.xz"
+            ]
         }
     ]
 }
