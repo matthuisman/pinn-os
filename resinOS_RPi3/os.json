@@ -3,7 +3,7 @@
     "version": "2.3.0 Rev1",
     "release_date": "2017-07-17",
     "kernel": "4.4.50",
-    "description": "Run Docker containers on your Raspberry Pi",
+    "description": "A minimal, reliable OS to run Docker containers",
     "url": "https://resinos.io/",
     "group": "Minimal",
     "username": "root",
