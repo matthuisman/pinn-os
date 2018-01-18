@@ -344,7 +344,7 @@
         {
             "os_name": "resinOS_RPi3",
             "description": "A minimal reliable OS to run Docker containers",
-            "release_date": "2017-07-17",
+            "release_date": "2017-08-17",
             "nominal_size": 1184,
             "download_size": 67927100,
             "url": "https://resinos.io/",

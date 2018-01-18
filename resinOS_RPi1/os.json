@@ -1,7 +1,7 @@
 {
-    "name": "resinOS_RPi3",
-    "version": "2.3.0 Rev1",
-    "release_date": "2017-08-17",
+    "name": "resinOS_RPi1",
+    "version": "2.2.0 Rev1",
+    "release_date": "2017-07-31",
     "kernel": "4.4.50",
     "description": "A minimal reliable OS to run Docker containers",
     "url": "https://resinos.io/",
@@ -10,10 +10,11 @@
     "password": "",
     "supports_usb_boot": true,
     "supports_usb_root": true,
-    "download_size": 67927100,
-    "supported_hex_revisions": "2082",
+    "download_size": 0,
+    "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
     "supported_models": [
-        "Pi 3",
-        "Pi Compute Module 3"
+        "Pi Model",
+        "Pi Compute Module",
+        "Pi Zero"
     ]
 }
