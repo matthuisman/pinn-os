@@ -424,6 +424,31 @@
                "",
                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-data.tar.xz"
             ]
+        },
+        {
+            "os_name": "CentOS_RPi3",
+            "description": "CentOS 7 (Core) Minimal OS for Raspberry Pi 3",
+            "release_date": "2017-09-06",
+            "nominal_size": 2000,
+            "download_size": 195518464,
+            "url": "https://wiki.centos.org/SpecialInterestGroup/AltArch/Arm32/RaspberryPi3",
+            "group": "Minimal",
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "supported_hex_revisions": "2082",
+            "supported_models": [
+                "Pi 3",
+                "Pi Compute Module 3"
+            ],
+            "os_info":         "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/os.json",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/partitions.json",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/partition_setup.sh",
+            "icon":            "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/CentOS_RPi3.png",
+            "marketing_info":  "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/marketing.tar",
+            "tarballs": [
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/CentOS_RPi3/boot.tar.xz",
+               "http://downloads.sourceforge.net/project/pinn-matthuisman/os/CentOS_RPi3/root.tar.xz"
+            ]
         }
     ]
 }
