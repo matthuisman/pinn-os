@@ -316,9 +316,9 @@
         {
             "os_name": "DietPi",
             "description": "Highly optimized minimal Debian OS",
-            "release_date": "2017-12-10",
+            "release_date": "2018-03-16",
             "nominal_size": 660,
-            "download_size": 109416448,
+            "download_size": 79509432,
             "url": "http://dietpi.com/",
             "group": "Minimal",
             "supports_usb_boot": true,

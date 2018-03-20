@@ -13,14 +13,13 @@ mount "$part1" /tmp/1
 mount "$part2" /tmp/2
 
 sed /tmp/1/cmdline.txt -i -e "s|root=[^ ]*|root=${part2}|"
-sed /tmp/1/dietpi/conf/fstab -i -e "s|^.* / |${part2}  / |"
-sed /tmp/1/dietpi/conf/fstab -i -e "s|^.* /boot |${part1}  /boot |"
-sed /tmp/1/dietpi/boot -i -e "s|FS_Partition$|#FS_Partition|"
-sed /tmp/1/dietpi.txt -i -e "s|Swapfile_Size=1|Swapfile_Size=0|"
-sed /tmp/1/dietpi.txt -i -e "s|AUTO_Install_Enable=0|AUTO_Install_Enable=1|"
+sed /tmp/1/dietpi.txt -i -e "s|AUTO_SETUP_SWAPFILE_SIZE=1|AUTO_SETUP_SWAPFILE_SIZE=0|"
 
-sed /tmp/2/etc/fstab -i -e "s|^.* / |${part2}  / |"
-sed /tmp/2/etc/fstab -i -e "s|^.* /boot |${part1}  /boot |"
+sed /tmp/2/etc/fstab -i -e "s|^PARTUUID=.* / |${part2}  / |"
+sed /tmp/2/etc/fstab -i -e "s|^PARTUUID=.* /boot |${part1}  /boot |"
+rm /tmp/2/etc/systemd/system/dietpi-fs_expand.service
+rm /tmp/2/var/lib/dietpi/fs_partition_resize.sh
+rm /tmp/2/etc/systemd/system/dietpi-fs_partition_resize.service
 
 umount /tmp/1
 umount /tmp/2
