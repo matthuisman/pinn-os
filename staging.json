@@ -20,6 +20,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 1270,
+            "os_name": "Amibian",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/partition_setup.sh",
@@ -50,6 +51,7 @@
                 "Pi Zero"
             ],
             "nominal_size": 1200,
+            "os_name": "batocera_RPi1",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partition_setup.sh",
@@ -77,6 +79,7 @@
                 "Pi 2"
             ],
             "nominal_size": 1200,
+            "os_name": "batocera_RPi2",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partition_setup.sh",
@@ -105,6 +108,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 1200,
+            "os_name": "batocera_RPi3",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partition_setup.sh",
@@ -132,6 +136,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 2000,
+            "os_name": "CentOS_RPi3",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/partition_setup.sh",
@@ -164,6 +169,7 @@
                 "Pi Compute Module"
             ],
             "nominal_size": 1560,
+            "os_name": "DietPi",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partition_setup.sh",
@@ -191,6 +197,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 4512,
+            "os_name": "FedBerry",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partition_setup.sh",
@@ -219,6 +226,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 2048,
+            "os_name": "Flint OS",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/partition_setup.sh",
@@ -252,6 +260,7 @@
                 "Pi 3 Model B Rev"
             ],
             "nominal_size": 2169,
+            "os_name": "Gladys",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partition_setup.sh",
@@ -283,6 +292,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 4060,
+            "os_name": "Kano_OS",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Kano_OS/partition_setup.sh",
@@ -315,6 +325,7 @@
                 "Pi Compute Module"
             ],
             "nominal_size": 2060,
+            "os_name": "Pi MusicBox",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/partition_setup.sh",
@@ -345,6 +356,7 @@
                 "Pi Zero"
             ],
             "nominal_size": 1024,
+            "os_name": "RasPlex_RPi",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partition_setup.sh",
@@ -374,6 +386,7 @@
                 "Pi 3 Model B Rev"
             ],
             "nominal_size": 1024,
+            "os_name": "RasPlex_RPi2",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partition_setup.sh",
@@ -404,6 +417,7 @@
                 "Pi Zero"
             ],
             "nominal_size": 1184,
+            "os_name": "resinOS_RPi1",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/partition_setup.sh",
@@ -435,6 +449,7 @@
                 "Pi 2"
             ],
             "nominal_size": 1184,
+            "os_name": "resinOS_RPi2",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/partition_setup.sh",
@@ -467,6 +482,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 1184,
+            "os_name": "resinOS_RPi3",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partition_setup.sh",
@@ -496,6 +512,7 @@
                 "Pi Compute Module 3"
             ],
             "nominal_size": 5120,
+            "os_name": "RetroX Frambu",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/partitions.json",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/partition_setup.sh",

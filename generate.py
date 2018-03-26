@@ -35,7 +35,7 @@ for folder in os.listdir(dname):
     for partition in partitions:
         system['nominal_size'] += int(partition.get("partition_size_nominal", 0))
 
-   # system['os_name'] = system.pop('name')
+    system['os_name'] = system['name']
 
     for key in MAP:
         file_name = MAP[key].format(folder=folder)
