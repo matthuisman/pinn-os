@@ -1,7 +1,6 @@
 {
     "os_list": [
         {
-            "name": "Amibian",
             "version": "1.4",
             "release_date": "2017-07-04",
             "description": "Transform your Raspberry into an Amiga",
@@ -32,7 +31,6 @@
             ]
         },
         {
-            "name": "batocera_RPi1",
             "version": "5.5",
             "release_date": "2017-03-24",
             "kernel": "4.9.13",
@@ -62,7 +60,6 @@
             ]
         },
         {
-            "name": "batocera_RPi2",
             "version": "5.5",
             "release_date": "2017-03-24",
             "kernel": "4.9.13",
@@ -90,7 +87,6 @@
             ]
         },
         {
-            "name": "batocera_RPi3",
             "version": "5.5",
             "release_date": "2017-03-24",
             "kernel": "4.9.13",
@@ -119,7 +115,6 @@
             ]
         },
         {
-            "name": "CentOS_RPi3",
             "version": "1708",
             "release_date": "2017-09-06",
             "description": "CentOS 7 (Core) Minimal OS for Raspberry Pi 3",
@@ -148,7 +143,6 @@
             ]
         },
         {
-            "name": "DietPi",
             "version": "v6.4",
             "release_date": "2018-03-16",
             "kernel": "4.1",
@@ -181,7 +175,6 @@
             ]
         },
         {
-            "name": "FedBerry",
             "version": "25.1",
             "release_date": "2017-06-07",
             "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware",
@@ -209,7 +202,6 @@
             ]
         },
         {
-            "name": "Flint OS",
             "version": "0.3",
             "release_date": "2017-05-15",
             "description": "A fast, simple, and secure OS powered by Chromium OS",
@@ -240,7 +232,6 @@
             ]
         },
         {
-            "name": "Gladys",
             "version": "3.5.2",
             "release_date": "2017-05-16",
             "kernel": "4.9.13",
@@ -272,7 +263,6 @@
             ]
         },
         {
-            "name": "Kano_OS",
             "version": "Beta 3.14.0",
             "release_date": "2017-12-18",
             "kernel": "4.1",
@@ -304,7 +294,6 @@
             ]
         },
         {
-            "name": "Pi MusicBox",
             "version": "jessie",
             "release_date": "2017-03-22",
             "kernel": "4.9",
@@ -337,7 +326,6 @@
             ]
         },
         {
-            "name": "RasPlex_RPi",
             "version": "1.8.0",
             "release_date": "2017-03-21",
             "kernel": "4.9.29",
@@ -368,7 +356,6 @@
             ]
         },
         {
-            "name": "RasPlex_RPi2",
             "version": "1.8.0",
             "release_date": "2017-03-21",
             "kernel": "4.9.29",
@@ -398,7 +385,6 @@
             ]
         },
         {
-            "name": "resinOS_RPi1",
             "version": "2.2.0 Rev1",
             "release_date": "2017-07-31",
             "kernel": "4.4.50",
@@ -432,7 +418,6 @@
             ]
         },
         {
-            "name": "resinOS_RPi2",
             "version": "2.2.0 Rev1",
             "release_date": "2017-07-31",
             "kernel": "4.4.50",
@@ -464,7 +449,6 @@
             ]
         },
         {
-            "name": "resinOS_RPi3",
             "version": "2.3.0 Rev1",
             "release_date": "2017-08-17",
             "kernel": "4.4.50",
@@ -497,7 +481,6 @@
             ]
         },
         {
-            "name": "RetroX Frambu",
             "version": "1.2",
             "release_date": "2017-08-04",
             "description": "Android TV based retro gaming console",
