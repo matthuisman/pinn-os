@@ -1,0 +1,9 @@
+{
+    "tarballs": [
+        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-boot.tar.xz",
+        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-rootA.tar.xz",
+        "",
+        "",
+        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-data.tar.xz"
+     ]
+}

@@ -1,0 +1,6 @@
+{
+    "tarballs": [
+        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/boot.tar.xz",
+        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/root.tar.xz"
+    ]
+}
