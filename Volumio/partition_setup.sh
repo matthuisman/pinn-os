@@ -42,5 +42,7 @@ rm -rf /tmp/3/mnt
 
 ##############################
 
+cd /tmp
+sync
 umount /tmp/1
 umount /tmp/3
