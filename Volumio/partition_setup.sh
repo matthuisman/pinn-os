@@ -13,7 +13,7 @@ mkdir -p /tmp/3
 mount "$part1" /tmp/1
 mount "$part3" /tmp/3
 
-sed /tmp/1/cmdline.txt -i -e "s|imgpart=[^ ]*|imgpart=${part2}|"
+sed /tmp/1/cmdline.txt -i -e "s|imgpart=[^ ]*|imgpart=${part2} use_kmsg=no|"
 rm /tmp/1/resize-volumio-datapart
 
 ##############################
@@ -31,6 +31,9 @@ sed init -i -e "s|/dev/\${BOOTDEV}p2|${part2}|"
 sed init -i -e "s|/dev/\${BOOTDEV}p3|${part3}|"
 sed init -i -e "s|/dev/\${BOOTDEV}|/dev/null|" #just in case
 sed init -i -e "s|resize-volumio-datapart|i-dont-exist.txt|" #just in case
+
+#Need to add a line to init that fixes the fstab in the squash (Insert around line 223)
+#add line "sed /mnt/static/etc/fstab -i -e \"s|^/dev.* /boot |${part1}  /boot |\""  to init line #223
 
 cpio -i -t -F ../volumio | cpio -o -H newc >../volumio_new
 cd ..
