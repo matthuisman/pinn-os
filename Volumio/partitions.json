@@ -8,7 +8,7 @@
       "uncompressed_tarball_size": 38
     },
     {
-      "label": "root",
+      "label": "volumio",
       "filesystem_type": "ext4",
       "partition_size_nominal": 1000,
       "want_maximised": false,
@@ -16,7 +16,7 @@
       "uncompressed_tarball_size": 300
     },
     {
-      "label": "data",
+      "label": "volumio_data",
       "filesystem_type": "ext4",
       "partition_size_nominal": 100,
       "want_maximised": true,
