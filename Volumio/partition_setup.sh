@@ -29,11 +29,13 @@ cpio -i -F ../volumio
 sed init -i -e "s|/dev/\${BOOTDEV}p1|${part1}|"
 sed init -i -e "s|/dev/\${BOOTDEV}p2|${part2}|"
 sed init -i -e "s|/dev/\${BOOTDEV}p3|${part3}|"
-sed init -i -e "s|/dev/\${BOOTDEV}|/dev/null|" #just in case
-sed init -i -e "s|resize-volumio-datapart|i-dont-exist.txt|" #just in case
 
-#Need to add a line to init that fixes the fstab in the squash (Insert around line 223)
-#add line "sed /mnt/static/etc/fstab -i -e \"s|^/dev.* /boot |${part1}  /boot |\""  to init line #223
+# Make sure resize can't happen
+sed init -i -e "s|/dev/\${BOOTDEV}|/dev/null|"
+sed init -i -e "s|resize-volumio-datapart|i-dont-exist.txt|"
+
+# Update init to update fstab on each boot
+sed init -i -e "/chmod -R 777 \/mnt\/ext\/union\/imgpart/ased \/mnt\/static\/etc\/fstab -i -e \"s|^/dev.* \/boot |${part1}  \/boot |\""
 
 cpio -i -t -F ../volumio | cpio -o -H newc >../volumio_new
 cd ..
