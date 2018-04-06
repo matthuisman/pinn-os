@@ -35,7 +35,7 @@ sed init -i -e "s|/dev/\${BOOTDEV}|/dev/null|"
 sed init -i -e "s|resize-volumio-datapart|i-dont-exist.txt|"
 
 # Update init to update fstab on each boot
-sed init -i -e "/chmod -R 777 \/mnt\/ext\/union\/imgpart/ased \/mnt\/static\/etc\/fstab -i -e \"s|^/dev.* \/boot |${part1}  \/boot |\""
+sed init -i -e "/chmod -R 777 \/mnt\/ext\/union\/imgpart/ased \/mnt\/ext\/union\/static\/etc\/fstab -i -e \"s|^/dev.* \/boot |${part1}  \/boot |\""
 
 cpio -i -t -F ../volumio | cpio -o -H newc >../volumio_new
 cd ..
