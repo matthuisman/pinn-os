@@ -3,22 +3,22 @@
     {
       "label": "boot",
       "filesystem_type": "FAT",
-      "partition_size_nominal": 60,
+      "partition_size_nominal": 64,
       "want_maximised": false,
       "uncompressed_tarball_size": 38
     },
     {
       "label": "volumio",
       "filesystem_type": "ext4",
-      "partition_size_nominal": 1000,
+      "partition_size_nominal": 2436,
       "want_maximised": false,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 300
+      "uncompressed_tarball_size": 293
     },
     {
       "label": "volumio_data",
       "filesystem_type": "ext4",
-      "partition_size_nominal": 100,
+      "partition_size_nominal": 300,
       "want_maximised": true,
       "mkfs_options": "-O ^huge_file",
       "empty_fs": true
