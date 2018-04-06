@@ -529,7 +529,7 @@
                 "Pi Compute Module",
                 "Pi 3 Model B Plus Rev"
             ],
-            "nominal_size": 1160,
+            "nominal_size": 2800,
             "os_name": "Volumio",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partitions.json",
@@ -538,7 +538,7 @@
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/marketing.tar",
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/root.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/volumio.tar.xz"
             ]
         }
     ]
