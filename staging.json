@@ -5,7 +5,7 @@
             "release_date": "2018-03-25",
             "description": "Transform your Raspberry into an Amiga",
             "url": "https://gunkrist79.wixsite.com/amibian/",
-            "group": "General",
+            "group": "Games",
             "username": "root",
             "password": "1234",
             "supports_usb_boot": false,
