@@ -1,4 +1,4 @@
-# Debian 9 VPS 2 vCore 4096 MB US SERVER
+# Debian 9 VPS 2 vCore 4096 MB Silicon Valley
 
 apt-get update && apt-get install -y unzip bsdtar
 
@@ -9,7 +9,7 @@ unzip volumio-*-pi.img.zip && rm volumio-*-pi.img.zip
 fdisk -l volumio-*-pi.img
 # Start Sector * Sector Size = Below Offsets
 
-# Boot tarball
+# boot tarball
 mount -o loop,rw,offset=$((1*512)) volumio-*-pi.img mnt
 cd mnt
 bsdtar --numeric-owner --format gnutar -cpf ../boot.tar .
@@ -31,7 +31,4 @@ put boot.tar.xz
 put volumio.tar.xz
 exit
 
-#cleanup
-rm -r mnt && rm boot.tar.xz && rm volumio.tar.xz && rm volumio-*-pi.img
-
-# UPDATE os.json "version"
+# UPDATE os.json #
