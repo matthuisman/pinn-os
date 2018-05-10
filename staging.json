@@ -33,8 +33,8 @@
             ]
         },
         {
-            "version": "5.5",
-            "release_date": "2017-03-24",
+            "version": "5.15",
+            "release_date": "2018-05-01",
             "kernel": "4.9.13",
             "description": "batocera.linux, the open source retro gaming console",
             "url": "https://batocera-linux.xorhub.com/",
@@ -43,7 +43,7 @@
             "password": "recalboxroot",
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "download_size": 291424680,
+            "download_size": 318169956,
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
                 "Pi Model",
@@ -62,8 +62,8 @@
             ]
         },
         {
-            "version": "5.5",
-            "release_date": "2017-03-24",
+            "version": "5.15",
+            "release_date": "2018-05-01",
             "kernel": "4.9.13",
             "description": "batocera.linux, the open source retro gaming console",
             "url": "https://batocera-linux.xorhub.com/",
@@ -72,7 +72,7 @@
             "password": "recalboxroot",
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "download_size": 348266852,
+            "download_size": 388137776,
             "supported_hex_revisions": "1040,1041",
             "supported_models": [
                 "Pi 2"
@@ -89,8 +89,8 @@
             ]
         },
         {
-            "version": "5.5",
-            "release_date": "2017-03-24",
+            "version": "5.15",
+            "release_date": "2018-05-01",
             "kernel": "4.9.13",
             "description": "batocera.linux, the open source retro gaming console",
             "url": "https://batocera-linux.xorhub.com/",
@@ -99,11 +99,12 @@
             "password": "recalboxroot",
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "download_size": 361265676,
-            "supported_hex_revisions": "2082",
+            "download_size": 401376612,
+            "supported_hex_revisions": "2082,20d3",
             "supported_models": [
                 "Pi 3 Model B Rev",
-                "Pi Compute Module 3"
+                "Pi Compute Module 3",
+                "Pi 3 Model B Plus Rev"
             ],
             "nominal_size": 1200,
             "os_name": "batocera_RPi3",
