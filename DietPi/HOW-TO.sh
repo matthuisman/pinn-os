@@ -1,9 +1,9 @@
 # Debian 9 VPS 2 vCore 4096 MB Silicon Valley
 
-apt-get update && apt-get install -y p7zip bsdtar
+apt-get update && apt-get install -y p7zip bsdtar aria2
 
 cd ~ && mkdir mnt
-wget http://dietpi.com/downloads/images/DietPi_RPi-ARMv6-Stretch.7z
+aria2c -x 4 -s 4  http://dietpi.com/downloads/images/DietPi_RPi-ARMv6-Stretch.7z
 p7zip -d DietPi_RPi-ARMv6-Stretch.7z
 
 fdisk -l DietPi_v*_RPi-ARMv6-Stretch.img
@@ -30,4 +30,7 @@ put boot.tar.xz
 put root.tar.xz
 exit
 
-# UPDATE os.json #
+# Get total download size in bytes
+echo $(($(wc -c < boot.tar.xz) + $(wc -c < root.tar.xz)))
+
+# UPDATE os.json
