@@ -115,35 +115,6 @@
             ]
         },
         {
-            "version": "1804",
-            "release_date": "2018-05-02",
-            "description": "CentOS 7 (KDE) for Raspberry Pi 3",
-            "url": "https://wiki.centos.org/SpecialInterestGroup/AltArch/armhfp",
-            "group": "General",
-            "username": "root",
-            "password": "centos",
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
-            "download_size": 729083424,
-            "supported_hex_revisions": "2082,20d3",
-            "supported_models": [
-                "Pi 3 Model B Rev",
-                "Pi Compute Module 3",
-                "Pi 3 Model B Plus Rev"
-            ],
-            "nominal_size": 3790,
-            "os_name": "CentOS_RPi3",
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/partition_setup.sh",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/CentOS_RPi3.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/CentOS_RPi3/marketing.tar",
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/CentOS_RPi3/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/CentOS_RPi3/root.tar.xz"
-            ]
-        },
-        {
             "version": "v6.6",
             "release_date": "2018-04-09",
             "description": "Highly optimized minimal Debian OS",
