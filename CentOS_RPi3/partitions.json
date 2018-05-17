@@ -3,16 +3,16 @@
     {
       "label":                     "boot",
       "filesystem_type":           "FAT",
-      "partition_size_nominal":    500,
+      "partition_size_nominal":    290,
       "want_maximised":            false,
-      "uncompressed_tarball_size": 47
+      "uncompressed_tarball_size": 42
     },
     {
       "label":                     "root",
       "filesystem_type":           "ext4",
-      "partition_size_nominal":    1500,
+      "partition_size_nominal":    3500,
       "want_maximised":            true,
-      "uncompressed_tarball_size": 775
+      "uncompressed_tarball_size": 2556
     }
   ]
 }
