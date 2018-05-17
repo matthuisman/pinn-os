@@ -2,7 +2,6 @@
     "name": "batocera_RPi3",
     "version": "5.15",
     "release_date": "2018-05-01",
-    "kernel": "4.9.13",
     "description": "batocera.linux, the open source retro gaming console",
     "url": "https://batocera-linux.xorhub.com/",
     "group": "Games",

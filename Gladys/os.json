@@ -2,7 +2,6 @@
     "name": "Gladys",
     "version": "3.5.2",
     "release_date": "2017-05-16",
-    "kernel": "4.9.13",
     "description": "Gladys, your home assistant.",
     "url": "https://gladysproject.com",
     "group": "General",

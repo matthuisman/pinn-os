@@ -2,7 +2,6 @@
     "name": "Kano_OS",
     "version": "Beta 3.14.0",
     "release_date": "2017-12-18",
-    "kernel": "4.1",
     "description": "An OS for Kids",
     "url": "http://www.kano.me/",
     "group": "Education",

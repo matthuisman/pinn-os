@@ -2,7 +2,6 @@
     "name": "resinOS_RPi2",
     "version": "2.2.0 Rev1",
     "release_date": "2017-07-31",
-    "kernel": "4.4.50",
     "description": "A minimal reliable OS to run Docker containers",
     "url": "https://resinos.io/",
     "group": "Minimal",

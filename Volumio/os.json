@@ -2,7 +2,6 @@
     "name": "Volumio",
     "version": "2.389",
     "release_date": "2018-03-26",
-    "kernel": "4.14.29",
     "description": "Volumio is an open source audiophile music player",
     "url": "https://volumio.org/",
     "group": "Media",

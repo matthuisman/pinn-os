@@ -5,7 +5,7 @@
       "filesystem_type":           "FAT",
       "partition_size_nominal":    60,
       "want_maximised":            false,
-      "uncompressed_tarball_size": 21
+      "uncompressed_tarball_size": 23
     },
     {
       "label":                     "pmb_root",
@@ -13,7 +13,7 @@
       "partition_size_nominal":    2000,
       "want_maximised":            true,
       "mkfs_options":              "-O ^huge_file",
-      "uncompressed_tarball_size": 815
+      "uncompressed_tarball_size": 714
     }
   ]
 }

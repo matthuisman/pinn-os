@@ -2,7 +2,6 @@
     "name": "RasPlex_RPi2",
     "version": "1.8.0",
     "release_date": "2017-03-21",
-    "kernel": "4.9.29",
     "description": "A Plex Client for the Raspberry Pi computer",
     "url": "http://www.rasplex.com/",
     "group": "Media",

@@ -1,7 +1,7 @@
 {
     "name": "CentOS_RPi3",
-    "version": "1708",
-    "release_date": "2017-09-06",
+    "version": "1804",
+    "release_date": "2018-05-02",
     "description": "CentOS 7 (Core) Minimal OS for Raspberry Pi 3",
     "url": "https://wiki.centos.org/SpecialInterestGroup/AltArch/Arm32/RaspberryPi3",
     "group": "Minimal",
@@ -9,10 +9,11 @@
     "password": "centos",
     "supports_usb_boot": false,
     "supports_usb_root": false,
-    "download_size": 195518464,
-    "supported_hex_revisions": "2082",
+    "download_size": 207742192,
+    "supported_hex_revisions": "2082,20d3",
     "supported_models": [
         "Pi 3 Model B Rev",
-        "Pi Compute Module 3"
+        "Pi Compute Module 3",
+        "Pi 3 Model B Plus Rev"
     ]
 }
