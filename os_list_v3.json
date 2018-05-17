@@ -35,7 +35,6 @@
         {
             "version": "5.15",
             "release_date": "2018-05-01",
-            "kernel": "4.9.13",
             "description": "batocera.linux, the open source retro gaming console",
             "url": "https://batocera-linux.xorhub.com/",
             "group": "Games",
@@ -64,7 +63,6 @@
         {
             "version": "5.15",
             "release_date": "2018-05-01",
-            "kernel": "4.9.13",
             "description": "batocera.linux, the open source retro gaming console",
             "url": "https://batocera-linux.xorhub.com/",
             "group": "Games",
@@ -91,7 +89,6 @@
         {
             "version": "5.15",
             "release_date": "2018-05-01",
-            "kernel": "4.9.13",
             "description": "batocera.linux, the open source retro gaming console",
             "url": "https://batocera-linux.xorhub.com/",
             "group": "Games",
@@ -118,8 +115,8 @@
             ]
         },
         {
-            "version": "1708",
-            "release_date": "2017-09-06",
+            "version": "1804",
+            "release_date": "2018-05-02",
             "description": "CentOS 7 (Core) Minimal OS for Raspberry Pi 3",
             "url": "https://wiki.centos.org/SpecialInterestGroup/AltArch/Arm32/RaspberryPi3",
             "group": "Minimal",
@@ -127,11 +124,12 @@
             "password": "centos",
             "supports_usb_boot": false,
             "supports_usb_root": false,
-            "download_size": 195518464,
-            "supported_hex_revisions": "2082",
+            "download_size": 207742192,
+            "supported_hex_revisions": "2082,20d3",
             "supported_models": [
                 "Pi 3 Model B Rev",
-                "Pi Compute Module 3"
+                "Pi Compute Module 3",
+                "Pi 3 Model B Plus Rev"
             ],
             "nominal_size": 2000,
             "os_name": "CentOS_RPi3",
@@ -148,7 +146,6 @@
         {
             "version": "v6.6",
             "release_date": "2018-04-09",
-            "kernel": "4.1",
             "description": "Highly optimized minimal Debian OS",
             "url": "http://dietpi.com/",
             "group": "Minimal",
@@ -179,21 +176,24 @@
             ]
         },
         {
-            "version": "25.1",
-            "release_date": "2017-06-07",
-            "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware",
+            "version": "27.1",
+            "release_date": "2018-03-22",
+            "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware (xfce)",
             "url": "http://fedberry.org/",
             "group": "General",
+            "username": "",
+            "password": "",
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "download_size": 686459008,
-            "supported_hex_revisions": "1040,1041,2082",
+            "download_size": 844258704,
+            "supported_hex_revisions": "1040,1041,2082,20d3",
             "supported_models": [
                 "Pi 2",
                 "Pi 3 Model B Rev",
-                "Pi Compute Module 3"
+                "Pi Compute Module 3",
+                "Pi 3 Model B Plus Rev"
             ],
-            "nominal_size": 4512,
+            "nominal_size": 4892,
             "os_name": "FedBerry",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partitions.json",
@@ -238,7 +238,6 @@
         {
             "version": "3.5.2",
             "release_date": "2017-05-16",
-            "kernel": "4.9.13",
             "description": "Gladys, your home assistant.",
             "url": "https://gladysproject.com",
             "group": "General",
@@ -269,7 +268,6 @@
         {
             "version": "Beta 3.14.0",
             "release_date": "2017-12-18",
-            "kernel": "4.1",
             "description": "An OS for Kids",
             "url": "http://www.kano.me/",
             "group": "Education",
@@ -298,9 +296,8 @@
             ]
         },
         {
-            "version": "jessie",
-            "release_date": "2017-03-22",
-            "kernel": "4.9",
+            "version": "v0.7.0RC6",
+            "release_date": "2018-03-20",
             "description": "The Swiss Army Knife of streaming music on the Raspberry Pi",
             "url": "http://www.pimusicbox.com/",
             "group": "Media",
@@ -308,14 +305,15 @@
             "password": "musicbox",
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "download_size": 198043064,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "download_size": 160515412,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3 Model B Rev",
-                "Pi Compute Module"
+                "Pi Compute Module",
+                "Pi 3 Model B Plus Rev"
             ],
             "nominal_size": 2060,
             "os_name": "Pi MusicBox",
@@ -332,7 +330,6 @@
         {
             "version": "1.8.0",
             "release_date": "2017-03-21",
-            "kernel": "4.9.29",
             "description": "A Plex Client for the Raspberry Pi computer",
             "url": "http://www.rasplex.com/",
             "group": "Media",
@@ -362,7 +359,6 @@
         {
             "version": "1.8.0",
             "release_date": "2017-03-21",
-            "kernel": "4.9.29",
             "description": "A Plex Client for the Raspberry Pi computer",
             "url": "http://www.rasplex.com/",
             "group": "Media",
@@ -391,7 +387,6 @@
         {
             "version": "2.2.0 Rev1",
             "release_date": "2017-07-31",
-            "kernel": "4.4.50",
             "description": "A minimal reliable OS to run Docker containers",
             "url": "https://resinos.io/",
             "group": "Minimal",
@@ -424,7 +419,6 @@
         {
             "version": "2.2.0 Rev1",
             "release_date": "2017-07-31",
-            "kernel": "4.4.50",
             "description": "A minimal reliable OS to run Docker containers",
             "url": "https://resinos.io/",
             "group": "Minimal",
@@ -455,7 +449,6 @@
         {
             "version": "2.3.0 Rev1",
             "release_date": "2017-08-17",
-            "kernel": "4.4.50",
             "description": "A minimal reliable OS to run Docker containers",
             "url": "https://resinos.io/",
             "group": "Minimal",
@@ -515,7 +508,6 @@
         {
             "version": "2.389",
             "release_date": "2018-03-26",
-            "kernel": "4.14.29",
             "description": "Volumio is an open source audiophile music player",
             "url": "https://volumio.org/",
             "group": "Media",
