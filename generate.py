@@ -28,21 +28,23 @@ for folder in os.listdir(dname):
     with open(os.path.join(folder_path, "os.json"), "r", encoding='utf8') as f:
         system = json.loads(f.read())
 
-    with open(os.path.join(folder_path, "partitions.json"), "r", encoding='utf8') as f:
-        partitions = json.loads(f.read())['partitions']
+    partitions_file = os.path.join(folder_path, "partitions.json")
+    if os.path.exists(partitions_file):
+        with open(partitions_file, "r", encoding='utf8') as f:
+            partitions = json.loads(f.read())['partitions']
 
-    system['nominal_size'] = 0
-    for partition in partitions:
-        system['nominal_size'] += int(partition.get("partition_size_nominal", 0))
+        system['nominal_size'] = 0
+        for partition in partitions:
+            system['nominal_size'] += int(partition.get("partition_size_nominal", 0))
 
     system['os_name'] = system.pop('name')
 
     for key in MAP:
         file_name = MAP[key].format(folder=folder)
-        if file_name in files:
+        if file_name in files and key not in system:
             system[key] = URL_BASE.format(folder=folder, file=file_name)
-        else:
-            print("{folder} missing {file}".format(folder=folder, file=file_name))
+        # else:
+        #     print("{folder} missing {file}".format(folder=folder, file=file_name))
 
     if "os_list.json" in files:
         with open(os.path.join(folder_path, "os_list.json"), "r", encoding='utf8') as f:
