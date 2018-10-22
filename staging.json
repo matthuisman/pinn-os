@@ -237,6 +237,7 @@
             ]
         },
         {
+            "os_name": "Kano_OS",
             "version": "Beta 4.0.0",
             "release_date": "2018-07-19",
             "description": "An OS for Kids",
@@ -262,7 +263,6 @@
                 "Pi Compute Module",
                 "Pi 3 Model B Plus Rev"
             ],
-            "os_name": "Kano_OS",
             "tarballs": [
                 "http://downloads.kano.me/public/noobs/boot.tar.xz",
                 "http://downloads.kano.me/public/noobs/root.tar.xz"
