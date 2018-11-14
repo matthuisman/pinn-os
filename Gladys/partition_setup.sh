@@ -13,8 +13,8 @@ mount "$part1" /tmp/1
 mount "$part2" /tmp/2
 
 sed /tmp/1/cmdline.txt -i -e "s|root=[^ ]*|root=${part2}|"
-sed /tmp/2/etc/fstab -i -e "s|^.* / |${part2}  / |"
-sed /tmp/2/etc/fstab -i -e "s|^.* /boot |${part1}  /boot |"
+sed /tmp/2/etc/fstab -i -e "s|^[^#].* / |${part2} / |"
+sed /tmp/2/etc/fstab -i -e "s|^[^#].* /boot |${part1} /boot |"
 
 if [ -f /mnt/ssh ]; then
   cp /mnt/ssh /tmp/1/
@@ -29,7 +29,7 @@ if [ -f /settings/wpa_supplicant.conf ]; then
 fi
 
 if ! grep -q resize /proc/cmdline; then
-  sed -i 's| quiet init=/usr/lib/raspi-config/init_resize.sh||' /tmp/1/cmdline.txt
+  sed -i 's| init=/usr/lib/raspi-config/init_resize.sh||;s| quiet||2g' /tmp/1/cmdline.txt
 fi
 
 umount /tmp/1
