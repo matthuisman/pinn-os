@@ -13,12 +13,12 @@ mkdir -p /tmp/2
 mount "$part1" /tmp/1
 mount "$part2" /tmp/2
 
-sed /tmp/1/cmdline.txt -i -e "s|imgpart=[^ ]*|imgpart=${part2} use_kmsg=no|"
-rm /tmp/1/resize-volumio-datapart
+sed /tmp/1/cmdline.txt -i -e "s|imgpart=[^ ]*|imgpart=${part2}|"
+sed /tmp/1/cmdline.txt -i -e "s|loglevel=0$|loglevel=0 use_kmsg=no|"
+rm -f /tmp/1/resize-volumio-datapart
 
-rm /tmp/1/volumio.initrd
+rm -f /tmp/1/volumio.initrd
 cp /tmp/2/volumio.initrd /tmp/1/volumio.initrd
 
-sync
 umount /tmp/1
 umount /tmp/2
