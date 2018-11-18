@@ -1,8 +1,0 @@
-{
-    "tarballs": [
-        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/EFI-SYSTEM.tar.xz",
-        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/ROOT-A.img.gz",
-        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/OEM.tar.xz",
-        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/STATE.tar.xz"
-    ]
-}
