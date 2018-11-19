@@ -10,15 +10,17 @@
             "password": "1234",
             "supports_usb_boot": false,
             "supports_usb_root": false,
+            "supports_backup": false,
             "download_size": 322730824,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "nominal_size": 1570,
             "os_name": "Amibian",
@@ -42,6 +44,7 @@
             "password": "recalboxroot",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 318169956,
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
@@ -70,6 +73,7 @@
             "password": "recalboxroot",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 388137776,
             "supported_hex_revisions": "1040,1041",
             "supported_models": [
@@ -96,12 +100,14 @@
             "password": "recalboxroot",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 401376612,
-            "supported_hex_revisions": "2082,20d3",
+            "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
                 "Pi 3 Model B Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "nominal_size": 1200,
             "os_name": "batocera_RPi3",
@@ -124,15 +130,17 @@
             "password": "dietpi",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 80635412,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "nominal_size": 1560,
             "os_name": "DietPi",
@@ -156,13 +164,15 @@
             "password": "",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 844258704,
-            "supported_hex_revisions": "1040,1041,2082,20d3",
+            "supported_hex_revisions": "1040,1041,2082,20d3,20e0",
             "supported_models": [
                 "Pi 2",
                 "Pi 3 Model B Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "nominal_size": 4892,
             "os_name": "FedBerry",
@@ -177,38 +187,8 @@
             ]
         },
         {
-            "version": "0.3",
-            "release_date": "2017-05-15",
-            "description": "A fast, simple, and secure OS powered by Chromium OS",
-            "url": "https://flintos.io/",
-            "group": "General",
-            "username": "chronos",
-            "password": "chronos",
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
-            "download_size": 435287898,
-            "supported_hex_revisions": "2082",
-            "supported_models": [
-                "Pi 3 Model B Rev",
-                "Pi Compute Module 3"
-            ],
-            "nominal_size": 2048,
-            "os_name": "Flint OS",
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/partition_setup.sh",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/Flint_OS.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Flint_OS/marketing.tar",
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/EFI-SYSTEM.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/ROOT-A.img.gz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/OEM.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Flint_OS/STATE.tar.xz"
-            ]
-        },
-        {
-            "version": "3.5.2",
-            "release_date": "2017-05-16",
+            "version": "3.8.0-rev2",
+            "release_date": "2018-03-05",
             "description": "Gladys, your home assistant.",
             "url": "https://gladysproject.com",
             "group": "General",
@@ -216,15 +196,19 @@
             "password": "raspberry",
             "supports_usb_boot": true,
             "supports_usb_root": true,
-            "download_size": 625933064,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+            "supports_backup": false,
+            "download_size": 672820496,
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi 3 Model B Rev"
+                "Pi 3 Model B Rev",
+                "Pi Compute Module",
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
-            "nominal_size": 2169,
+            "nominal_size": 3069,
             "os_name": "Gladys",
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/os.json",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partitions.json",
@@ -278,15 +262,17 @@
             "password": "musicbox",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 160515412,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "nominal_size": 2060,
             "os_name": "Pi MusicBox",
@@ -310,6 +296,7 @@
             "password": "rasplex",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 116791108,
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
@@ -339,6 +326,7 @@
             "password": "rasplex",
             "supports_usb_boot": true,
             "supports_usb_root": true,
+            "supports_backup": false,
             "download_size": 116592712,
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
@@ -358,127 +346,6 @@
             ]
         },
         {
-            "version": "2.2.0 Rev1",
-            "release_date": "2017-07-31",
-            "description": "A minimal reliable OS to run Docker containers",
-            "url": "https://resinos.io/",
-            "group": "Minimal",
-            "username": "root",
-            "password": "",
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
-            "download_size": 67975392,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
-            "supported_models": [
-                "Pi Model",
-                "Pi Compute Module",
-                "Pi Zero"
-            ],
-            "nominal_size": 1184,
-            "os_name": "resinOS_RPi1",
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/partition_setup.sh",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/resinOS_RPi1.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi1/marketing.tar",
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-rootA.tar.xz",
-                "",
-                "",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi1/resin-data.tar.xz"
-            ]
-        },
-        {
-            "version": "2.2.0 Rev1",
-            "release_date": "2017-07-31",
-            "description": "A minimal reliable OS to run Docker containers",
-            "url": "https://resinos.io/",
-            "group": "Minimal",
-            "username": "root",
-            "password": "",
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
-            "download_size": 67797140,
-            "supported_hex_revisions": "1040,1041",
-            "supported_models": [
-                "Pi 2"
-            ],
-            "nominal_size": 1184,
-            "os_name": "resinOS_RPi2",
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/partition_setup.sh",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/resinOS_RPi2.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi2/marketing.tar",
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi2/resin-boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi2/resin-rootA.tar.xz",
-                "",
-                "",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi2/resin-data.tar.xz"
-            ]
-        },
-        {
-            "version": "2.3.0 Rev1",
-            "release_date": "2017-08-17",
-            "description": "A minimal reliable OS to run Docker containers",
-            "url": "https://resinos.io/",
-            "group": "Minimal",
-            "username": "root",
-            "password": "",
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
-            "download_size": 67927100,
-            "supported_hex_revisions": "2082",
-            "supported_models": [
-                "Pi 3 Model B Rev",
-                "Pi Compute Module 3"
-            ],
-            "nominal_size": 1184,
-            "os_name": "resinOS_RPi3",
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/partition_setup.sh",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/resinOS_RPi3.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/resinOS_RPi3/marketing.tar",
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-rootA.tar.xz",
-                "",
-                "",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/resinOS_RPi3/resin-data.tar.xz"
-            ]
-        },
-        {
-            "version": "1.2",
-            "release_date": "2017-08-04",
-            "description": "Android TV based retro gaming console",
-            "url": "http://www.retrox.tv/frambu/",
-            "group": "Games",
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
-            "download_size": 215298128,
-            "supported_hex_revisions": "2082",
-            "supported_models": [
-                "Pi 3 Model B Rev",
-                "Pi Compute Module 3"
-            ],
-            "nominal_size": 5120,
-            "os_name": "RetroX Frambu",
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/os.json",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/partitions.json",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/partition_setup.sh",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/RetroX_Frambu.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RetroX_Frambu/marketing.tar",
-            "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/boot.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/system.img.gz",
-                "",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RetroX_Frambu/userdata.tar.xz"
-            ]
-        },
-        {
             "version": "2.457",
             "release_date": "2018-09-17",
             "description": "Volumio is an open source audiophile music player",
@@ -488,15 +355,17 @@
             "password": "volumio",
             "supports_usb_boot": false,
             "supports_usb_root": false,
+            "supports_backup": false,
             "download_size": 281081736,
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "nominal_size": 2800,
             "os_name": "Volumio",

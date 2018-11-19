@@ -1,7 +1,7 @@
 {
     "name": "Gladys",
-    "version": "3.5.2",
-    "release_date": "2017-05-16",
+    "version": "3.8.0-rev2",
+    "release_date": "2018-03-05",
     "description": "Gladys, your home assistant.",
     "url": "https://gladysproject.com",
     "group": "General",
@@ -10,12 +10,15 @@
     "supports_usb_boot": true,
     "supports_usb_root": true,
     "supports_backup": false,
-    "download_size": 625933064,
-    "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082",
+    "download_size": 672820496,
+    "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
     "supported_models": [
         "Pi Model",
         "Pi 2",
         "Pi Zero",
-        "Pi 3 Model B Rev"
+        "Pi 3 Model B Rev",
+        "Pi Compute Module",
+        "Pi 3 Model B Plus Rev",
+        "Pi 3 Model A Plus Rev"
     ]
 }
