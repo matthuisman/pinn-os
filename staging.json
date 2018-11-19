@@ -17,10 +17,8 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3"
             ],
             "nominal_size": 1570,
             "os_name": "Amibian",
@@ -104,10 +102,8 @@
             "download_size": 401376612,
             "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
-                "Pi 3 Model B Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3"
             ],
             "nominal_size": 1200,
             "os_name": "batocera_RPi3",
@@ -137,10 +133,8 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3"
             ],
             "nominal_size": 1560,
             "os_name": "DietPi",
@@ -169,10 +163,8 @@
             "supported_hex_revisions": "1040,1041,2082,20d3,20e0",
             "supported_models": [
                 "Pi 2",
-                "Pi 3 Model B Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3"
             ],
             "nominal_size": 4892,
             "os_name": "FedBerry",
@@ -203,10 +195,8 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3"
             ],
             "nominal_size": 3069,
             "os_name": "Gladys",
@@ -269,10 +259,8 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3"
             ],
             "nominal_size": 2060,
             "os_name": "Pi MusicBox",
@@ -362,10 +350,8 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi 3 Model B Rev",
                 "Pi Compute Module",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3"
             ],
             "nominal_size": 2800,
             "os_name": "Volumio",
