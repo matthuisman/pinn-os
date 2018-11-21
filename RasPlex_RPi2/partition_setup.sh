@@ -1,4 +1,5 @@
 #!/bin/sh -x
+#supports_backup in PINN
 
 MOUNTPOINT="/tmp/RasPlex-System"
 
