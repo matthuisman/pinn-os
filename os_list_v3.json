@@ -293,7 +293,7 @@
                 "Pi Compute Module",
                 "Pi Zero"
             ],
-            "supports_backup": false,
+            "supports_backup": true,
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
@@ -322,7 +322,7 @@
                 "Pi 2",
                 "Pi 3 Model B Rev"
             ],
-            "supports_backup": false,
+            "supports_backup": true,
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
