@@ -9,7 +9,7 @@
     "password": "recalboxroot",
     "supports_usb_boot": true,
     "supports_usb_root": true,
-    "supports_backup": false,
+    "supports_backup": true,
     "download_size": 401376612,
     "supported_hex_revisions": "2082,20d3,20e0",
     "supported_models": [

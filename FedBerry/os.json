@@ -9,7 +9,7 @@
     "password": "",
     "supports_usb_boot": true,
     "supports_usb_root": true,
-    "supports_backup": false,
+    "supports_backup": true,
     "download_size": 844258704,
     "supported_hex_revisions": "1040,1041,2082,20d3,20e0",
     "supported_models": [
