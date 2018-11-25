@@ -13,13 +13,14 @@
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Amibian/partitions.json",
             "password": "1234",
             "release_date": "2018-03-25",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": false,
@@ -104,7 +105,8 @@
             "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
                 "Pi Compute Module 3",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
@@ -129,13 +131,14 @@
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
             "password": "dietpi",
             "release_date": "2018-04-09",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
@@ -161,11 +164,12 @@
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/FedBerry/partitions.json",
             "password": "",
             "release_date": "2018-03-22",
-            "supported_hex_revisions": "1040,1041,2082,20d3,20e0",
+            "supported_hex_revisions": "1040,1041,2082,20d3",
             "supported_models": [
                 "Pi 2",
                 "Pi Compute Module 3",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
@@ -191,13 +195,14 @@
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Gladys/partitions.json",
             "password": "raspberry",
             "release_date": "2018-03-05",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
@@ -223,13 +228,14 @@
             "partitions_info": "http://downloads.kano.me/public/noobs/partitions.json",
             "password": "root",
             "release_date": "2018-07-19",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": false,
@@ -255,13 +261,14 @@
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Pi_MusicBox/partitions.json",
             "password": "musicbox",
             "release_date": "2018-03-20",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
@@ -346,13 +353,14 @@
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partitions.json",
             "password": "volumio",
             "release_date": "2018-09-17",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": false,
