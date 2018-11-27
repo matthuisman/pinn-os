@@ -140,7 +140,7 @@
                 "Pi 3 Model B Rev",
                 "Pi 3 Model B Plus Rev"
             ],
-            "supports_backup": true,
+            "supports_backup": "update",
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
@@ -171,7 +171,7 @@
                 "Pi 3 Model B Rev",
                 "Pi 3 Model B Plus Rev"
             ],
-            "supports_backup": true,
+            "supports_backup": "update",
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
@@ -237,7 +237,7 @@
                 "Pi 3 Model B Rev",
                 "Pi 3 Model B Plus Rev"
             ],
-            "supports_backup": true,
+            "supports_backup": "update",
             "supports_usb_boot": false,
             "supports_usb_root": false,
             "tarballs": [
