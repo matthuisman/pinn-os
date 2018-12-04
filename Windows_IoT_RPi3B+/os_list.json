@@ -1,0 +1,30 @@
+{
+    "os_name": "Windows 10 IoT Core (Pi3B+)",
+    "version": "Insider Preview 17661",
+    "release_date": "2018-05-16",
+    "description": "Windows for devices. Enables you to build projects and apps.",
+    "url": "http://windowsondevices.com",
+    "group": "General",
+    "username": "",
+    "password": "",
+    "os_info": "https://iottools.blob.core.windows.net/win10iotnoobs/os.json",
+    "partitions_info": "https://iottools.blob.core.windows.net/win10iotnoobs/partitions.json",
+    "icon": "https://iottools.blob.core.windows.net/win10iotnoobs/Windows_IoT.png",
+    "marketing_info": "https://iottools.blob.core.windows.net/win10iotnoobs/marketing.tar",
+    "nominal_size": 3836,
+    "supports_usb_boot": false,
+    "supports_usb_root": false,
+    "supports_backup": false,
+    "download_size": 69272,
+    "supported_hex_revisions": "20d3",
+    "supported_models": [
+        "Pi 3 Model B Plus Rev"
+    ],
+    "tarballs": [
+        "",
+        "",
+        "https://iottools.blob.core.windows.net/win10iotnoobs/scratch.tar.xz",
+        "",
+        ""
+    ]
+}

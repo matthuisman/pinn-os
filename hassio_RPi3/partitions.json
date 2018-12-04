@@ -1,0 +1,60 @@
+{
+  "partitions": [
+    {
+      "label":                     "hassos-boot",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    32,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 4
+    },
+    {
+      "label":                     "hassos-kernel0",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    24,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 7
+    },
+    {
+      "label":                     "hassos-system0",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    256,
+      "want_maximised":            false,
+      "empty_fs":                  true
+    },
+    {
+      "label":                     "hassos-kernel1",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    24,
+      "want_maximised":            false,
+      "empty_fs":                  true
+    },
+    {
+      "label":                     "hassos-system1",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    256,
+      "want_maximised":            false,
+      "empty_fs":                  true
+    },
+    {
+      "label":                     "hassos-bootstate",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    8,
+      "want_maximised":            false,
+      "empty_fs":                  true
+    },
+    {
+      "label":                     "hassos-overlay",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    96,
+      "want_maximised":            false,
+      "empty_fs":                  true
+    },
+    {
+      "label":                     "hassos-data",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    1000,
+      "want_maximised":            true,
+      "uncompressed_tarball_size": 231
+    }
+  ]
+}
