@@ -7,10 +7,10 @@
     "group": "Education",
     "username": "root",
     "password": "root",
-    "os_info": "http://downloads.kano.me/public/noobs/os.json",
-    "partitions_info": "http://downloads.kano.me/public/noobs/partitions.json",
-    "icon": "http://downloads.kano.me/public/noobs/Kano_OS.png",
-    "marketing_info": "http://downloads.kano.me/public/noobs/marketing.tar",
+    "os_info": "http://downloads.kano.me/public/noobs/link/os.json",
+    "partitions_info": "http://downloads.kano.me/public/noobs/link/partitions.json",
+    "icon": "http://downloads.kano.me/public/noobs/link/Kano_OS.png",
+    "marketing_info": "http://downloads.kano.me/public/noobs/link/marketing.tar",
     "nominal_size": 5550,
     "supports_usb_boot": false,
     "supports_usb_root": false,
@@ -26,7 +26,7 @@
         "Pi 3 Model B Plus Rev"
     ],
     "tarballs": [
-        "http://downloads.kano.me/public/noobs/boot.tar.xz",
-        "http://downloads.kano.me/public/noobs/root.tar.xz"
+        "http://downloads.kano.me/public/noobs/link/boot.tar.xz",
+        "http://downloads.kano.me/public/noobs/link/root.tar.xz"
     ]
 }
