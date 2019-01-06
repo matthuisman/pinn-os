@@ -13,7 +13,7 @@
       "partition_size_nominal": 2436,
       "want_maximised": false,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 250
+      "uncompressed_tarball_size": 297
     },
     {
       "label": "volumio_data",
