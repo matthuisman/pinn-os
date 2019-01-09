@@ -5,6 +5,7 @@
       "filesystem_type":           "FAT",
       "partition_size_nominal":    200,
       "want_maximised":            false,
+      "mkfs_options":              "-F 32",
       "uncompressed_tarball_size": 71
     },
     {
@@ -13,7 +14,7 @@
       "partition_size_nominal":    200,
       "want_maximised":            true,
       "uncompressed_tarball_size": 75,
-      "mkfs_options":              "-O ^huge_file"
+      "mkfs_options":              "-c"
     }  
   ]
 }
