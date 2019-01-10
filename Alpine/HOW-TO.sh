@@ -1,35 +1,28 @@
 # Matt PC
 
-## BOOT ALPINE with network
+## BOOT ALPINE
 ## Login: root
 
-setup-interfaces
-/etc/init.d/networking restart
+setup-alpine
 
-setup-ntp
-[ENTER]
+# /var/cache/apk
 
-setup-apkrepos 
-[1]
+apk add e2fsprogs
+rc-update add swclock boot
+rc-update del hwclock boot
+
+lbu commit -d mmcblk0p1
 
 mkdir /stage
 mount /dev/mmcblk0p2 /stage
-setup-disk /stage
+setup-disk -o /media/mmcblk0p1/localhost*.tar.gz /stage
 
-cd /stage
+rm -r /stage/boot
 
-vi etc/fstab.txt # i to edit
+vi /stage/etc/fstab  # i to edit
 # Change start of first line to /dev/mmcblk0p2 (instead of uuid)
 # Add new line below
 # /dev/mmcblk0p1 /boot vfat defaults 0 0
-# Save: ESC > :wq
-
-rm -r boot
-mkdir -p var/cache/apk
-ln -s /var/cache/apk etc/apk/cache
-
-vi etc/apk/repositories  # i to edit
-#Remove first line for /media/mmcblkop1/apks
 # Save: ESC > :wq
 
 mount -o remount,rw /media/mmcblk0p1
@@ -39,21 +32,18 @@ vi cmdline.txt # i to edit
 # Add root=/dev/mmcblk0p2 to cmdline.txt
 # Save: ESC > :wq
 
-mv boot/* .
-mv cache/* /stage/var/cache/apk
-rm -r boot cache apks modloop-rpi*
-
 vi config.txt # i to edit
 # Remove boot/ from all the kernel and initramfs paths eg. boot/vmlinux-rpi > vmlinux-rpi
 # Save: ESC > :wq
 
-reboot
-
-apk add e2fsprogs
-rc-update add swclock boot
-rc-update del hwclock boot
+mv boot/* .
+rm -r boot cache apk modloop-rpi*
 
 poweroff
+
+
+
+
 
 
 cd ~ && mkdir mnt
