@@ -30,9 +30,9 @@ e2fsck /dev/mmcblk0p2
 mkdir /stage
 mount /dev/mmcblk0p2 /stage
 
-setup-disk -o /media/mmcblk0p1/localhost*.tar.gz /stage
+setup-disk -o /media/mmcblk0p1/localhost.apk* /stage
 
-rm -r /stage/boot /stage/etc/network /stage/etc/apk/repositories /stage/var/cache/apk/*
+rm -r /stage/boot /stage/etc/network /stage/etc/apk/repositories #/stage/var/cache/apk/*
 
 vi /stage/etc/fstab  # i to edit
 # Change start of first line to /dev/mmcblk0p2 (instead of uuid)
@@ -45,7 +45,9 @@ mount -o remount,rw /media/mmcblk0p1
 
 cd /media/mmcblk0p1
 vi cmdline.txt # i to edit
-# Add root=/dev/mmcblk0p2 to cmdline.txt
+# Add 
+root=/dev/mmcblk0p2 
+#to cmdline.txt
 # Save: ESC > :wq
 
 vi config.txt # i to edit
