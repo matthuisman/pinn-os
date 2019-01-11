@@ -3,26 +3,42 @@
 ## BOOT ALPINE
 ## Login: root
 
-setup-alpine
+setup-interfaces #eth0 dhcp done no
+/etc/init.d/networking start
 
-# /var/cache/apk
+apk add chrony
+/etc/init.d/chronyd start
 
-apk add e2fsprogs
+rm /etc/apk/repositories
+setup-apkrepos #1
+setup-apkcache #/var/cache/apk
+
+apk update
+apk upgrade
+
+apk add e2fsprogs tzdata kbd-bkeymaps wireless-tools wpa_supplicant openssh #alpine-mirrors
+
 rc-update add swclock boot
 rc-update del hwclock boot
 
 lbu commit -d mmcblk0p1
 
+
+mkfs.ext4 /dev/mmcblk0p2 #y
+e2fsck /dev/mmcblk0p2
+
 mkdir /stage
 mount /dev/mmcblk0p2 /stage
+
 setup-disk -o /media/mmcblk0p1/localhost*.tar.gz /stage
 
-rm -r /stage/boot
+rm -r /stage/boot /stage/etc/network /stage/etc/apk/repositories /stage/var/cache/apk/*
 
 vi /stage/etc/fstab  # i to edit
 # Change start of first line to /dev/mmcblk0p2 (instead of uuid)
-# Add new line below
-# /dev/mmcblk0p1 /boot vfat defaults 0 0
+# Add 2x below lines
+/dev/mmcblk0p1 /media/boot vfat defaults 0 0
+/media/boot /boot none defaults,bind 0 0
 # Save: ESC > :wq
 
 mount -o remount,rw /media/mmcblk0p1
@@ -37,24 +53,20 @@ vi config.txt # i to edit
 # Save: ESC > :wq
 
 mv boot/* .
-rm -r boot cache apk modloop-rpi*
+rm -r boot apks modloop* localhost.apk*
 
 poweroff
 
 
 
 
-
-
+## PC ##
 cd ~ && mkdir mnt
 
 su
 
-fdisk -l alpine.img
-# Start Sector * Sector Size = Below Offsets
-
 # boot tarball
-mount -o loop,ro,offset=$((2048*512)) alpine*.img mnt
+mount /dev/sdX1 mnt
 du -h -m --max-depth=0 mnt    #boot uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar -cpf ../boot.tar .
@@ -62,7 +74,7 @@ cd .. && umount mnt
 xz -9 -e boot.tar
 
 # root tarball
-mount -o loop,ro,norecovery,offset=$((526336*512)) alpine*.img mnt
+mount /dev/sdX2 mnt
 du -h -m --max-depth=0 mnt     #root uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../root.tar .
