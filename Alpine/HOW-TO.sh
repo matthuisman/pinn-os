@@ -32,7 +32,7 @@ mount /dev/mmcblk0p2 /stage
 
 setup-disk -o /media/mmcblk0p1/localhost.apk* /stage
 
-rm -r /stage/boot /stage/etc/network /stage/etc/apk/repositories #/stage/var/cache/apk/*
+rm -r /stage/boot /stage/etc/network/interfaces /stage/etc/apk/repositories #/stage/var/cache/apk/*
 
 vi /stage/etc/fstab  # i to edit
 # Change start of first line to /dev/mmcblk0p2 (instead of uuid)
@@ -67,8 +67,10 @@ cd ~ && mkdir mnt
 
 su
 
+fdisk -l #find sdX of SD
+
 # boot tarball
-mount /dev/sdX1 mnt
+mount /dev/sdd1 mnt
 du -h -m --max-depth=0 mnt    #boot uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar -cpf ../boot.tar .
@@ -76,7 +78,7 @@ cd .. && umount mnt
 xz -9 -e boot.tar
 
 # root tarball
-mount /dev/sdX2 mnt
+mount /dev/sdd2 mnt
 du -h -m --max-depth=0 mnt     #root uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../root.tar .
