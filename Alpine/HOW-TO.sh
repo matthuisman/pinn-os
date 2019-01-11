@@ -16,7 +16,7 @@ setup-apkcache #/var/cache/apk
 apk update
 apk upgrade
 
-apk add e2fsprogs tzdata kbd-bkeymaps wireless-tools wpa_supplicant openssh #alpine-mirrors
+apk add e2fsprogs tzdata kbd-bkeymaps wireless-tools wpa_supplicant openssh
 
 rc-update add swclock boot
 rc-update del hwclock boot
@@ -32,7 +32,7 @@ mount /dev/mmcblk0p2 /stage
 
 setup-disk -o /media/mmcblk0p1/localhost.apk* /stage
 
-rm -r /stage/boot /stage/etc/network/interfaces /stage/etc/apk/repositories #/stage/var/cache/apk/*
+rm -r /stage/boot /stage/etc/network/interfaces /stage/etc/apk/repositories
 
 vi /stage/etc/fstab  # i to edit
 # Change start of first line to /dev/mmcblk0p2 (instead of uuid)
@@ -55,7 +55,7 @@ vi config.txt # i to edit
 # Save: ESC > :wq
 
 mv boot/* .
-rm -r boot apks modloop* localhost.apk*
+rm -r boot apks modloop* localhost.apk* "System Volume Information"
 
 poweroff
 
