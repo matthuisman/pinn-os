@@ -13,15 +13,14 @@
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Alpine/partitions.json",
             "password": "raspberry",
             "release_date": "2018-12-20",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
                 "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev"
+                "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": false,
