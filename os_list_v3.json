@@ -1,6 +1,39 @@
 {
     "os_list": [
         {
+            "description": "Security-oriented, lightweight Linux distribution based on musl libc and busybox.",
+            "download_size": 39017868,
+            "group": "Minimal",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Alpine/Alpine.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Alpine/marketing.tar",
+            "nominal_size": 200,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Alpine/os.json",
+            "os_name": "Alpine",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Alpine/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Alpine/partitions.json",
+            "password": "raspberry",
+            "release_date": "2018-12-20",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
+            "supported_models": [
+                "Pi Model",
+                "Pi 2",
+                "Pi Zero",
+                "Pi Compute Module",
+                "Pi 3 Model B Rev",
+                "Pi 3 Model B Plus Rev"
+            ],
+            "supports_backup": true,
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Alpine/boot.tar.xz",
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Alpine/root.tar.xz"
+            ],
+            "url": "https://alpinelinux.org/",
+            "username": "root",
+            "version": "3.8.2"
+        },
+        {
             "description": "Transform your Raspberry into an Amiga",
             "download_size": 322730824,
             "group": "Games",
