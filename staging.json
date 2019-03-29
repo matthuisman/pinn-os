@@ -481,7 +481,8 @@
             "supported_models": [
                 "Pi Compute Module 3",
                 "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
