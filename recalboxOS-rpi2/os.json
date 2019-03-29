@@ -1,5 +1,5 @@
 {
-    "name": "recalboxOS_rpi3",
+    "name": "recalboxOS-rpi2",
     "version": "6.0.0-rc1",
     "release_date": "2019-03-20",
     "description": "Recalbox, the open source retro gaming console (6.0.0-rc1)",
@@ -11,11 +11,8 @@
     "supports_usb_root": true,
     "supports_backup": true,
     "download_size": 280869964,
-    "supported_hex_revisions": "2082,20d3,20e0",
+    "supported_hex_revisions": "1040,1041",
     "supported_models": [
-        "Pi Compute Module 3",
-        "Pi 3 Model B Rev",
-        "Pi 3 Model B Plus Rev",
-        "Pi 3 Model A Plus Rev"
+        "Pi 2"
     ]
 }
