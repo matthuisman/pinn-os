@@ -410,6 +410,64 @@
             "description": "Recalbox, the open source retro gaming console (6.0.0-rc1)",
             "download_size": 280869964,
             "group": "Testing",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/recalboxOS-rpi1.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/marketing.tar",
+            "nominal_size": 2060,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/os.json",
+            "os_name": "recalboxOS-rpi1",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/partitions.json",
+            "password": "recalboxroot",
+            "release_date": "2019-03-20",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
+            "supported_models": [
+                "Pi Model",
+                "Pi Compute Module",
+                "Pi Zero"
+            ],
+            "supports_backup": true,
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "tarballs": [
+                "https://recalbox-releases.s3.nl-ams.scw.cloud/stable/v2/upgrade/rpi1/boot.tar.xz",
+                "https://recalbox-releases.s3.nl-ams.scw.cloud/stable/v2/upgrade/rpi1/root.tar.xz"
+            ],
+            "url": "https://www.recalbox.com/",
+            "username": "root",
+            "version": "6.0.0-rc1"
+        },
+        {
+            "description": "Recalbox, the open source retro gaming console (6.0.0-rc1)",
+            "download_size": 280869964,
+            "group": "Testing",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/recalboxOS-rpi2.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/marketing.tar",
+            "nominal_size": 2060,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/os.json",
+            "os_name": "recalboxOS-rpi2",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/partitions.json",
+            "password": "recalboxroot",
+            "release_date": "2019-03-20",
+            "supported_hex_revisions": "1040,1041",
+            "supported_models": [
+                "Pi 2"
+            ],
+            "supports_backup": true,
+            "supports_usb_boot": true,
+            "supports_usb_root": true,
+            "tarballs": [
+                "https://recalbox-releases.s3.nl-ams.scw.cloud/stable/v2/upgrade/rpi2/boot.tar.xz",
+                "https://recalbox-releases.s3.nl-ams.scw.cloud/stable/v2/upgrade/rpi2/root.tar.xz"
+            ],
+            "url": "https://www.recalbox.com/",
+            "username": "root",
+            "version": "6.0.0-rc1"
+        },
+        {
+            "description": "Recalbox, the open source retro gaming console (6.0.0-rc1)",
+            "download_size": 280869964,
+            "group": "Testing",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi3/recalboxOS-rpi3.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi3/marketing.tar",
             "nominal_size": 2060,
