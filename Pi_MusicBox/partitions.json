@@ -5,7 +5,8 @@
       "filesystem_type":           "FAT",
       "partition_size_nominal":    60,
       "want_maximised":            false,
-      "uncompressed_tarball_size": 23
+      "uncompressed_tarball_size": 23,
+      "sha512sum":                "f2a3cb160c1d9623d393fedce40ad5a807c49083c70757eed7186ff6feb2465459eee0eb4fcc0e9544ae25d4ad5da88c50cab86538596acc84b83dc88baec414"
     },
     {
       "label":                     "pmb_root",
@@ -13,7 +14,8 @@
       "partition_size_nominal":    2000,
       "want_maximised":            true,
       "mkfs_options":              "-O ^huge_file",
-      "uncompressed_tarball_size": 714
+      "uncompressed_tarball_size": 714,
+      "sha512sum":                "9f0abb52d4c28c56c8e18d2e35dfbd8fd92773b77549006b4c980767b1ba9ce96a83b956c68c18dab17623d3b71247739d6cfbc3122d284ac24a9941d7b3e06c"
     }
   ]
 }

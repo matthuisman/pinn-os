@@ -1,8 +1,8 @@
 {
     "name": "recalboxOS-rpi1",
-    "version": "6.0.0-rc2",
+    "version": "6.0.0-rc3",
     "release_date": "2019-03-28",
-    "description": "Recalbox, the open source retro gaming console (6.0.0-rc2)",
+    "description": "Recalbox, the open source retro gaming console (6.0.0-rc3)",
     "url": "https://www.recalbox.com/",
     "group": "Testing",
     "username": "root",

@@ -41,6 +41,9 @@ xz -9 -e root.tar
 # Get total download size in bytes
 echo $(($(wc -c < boot.tar.xz) + $(wc -c < root.tar.xz)))
 
+sha512sum boot.tar.xz
+sha512sum root.tar.xz
+
 # Upload tarballs
 sftp matthuisman@frs.sourceforge.net
 cd /home/frs/project/pinn-matthuisman/os/Combian

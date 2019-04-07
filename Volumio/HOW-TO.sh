@@ -47,6 +47,9 @@ xz -9 -e volumio.tar
 # Get total download size in bytes
 echo $(($(wc -c < boot.tar.xz) + $(wc -c < volumio.tar.xz)))
 
+sha512sum boot.tar.xz
+sha512sum volumio.tar.xz
+
 # Upload tarballs
 sftp matthuisman@frs.sourceforge.net
 cd /home/frs/project/pinn-matthuisman/os/Volumio

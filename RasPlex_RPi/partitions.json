@@ -6,7 +6,8 @@
       "partition_size_nominal":    512,
       "want_maximised":            false,
       "uncompressed_tarball_size": 120,
-      "mkfs_options":              ""
+      "mkfs_options":              "",
+      "sha512sum":                "f4e9206ad18eb92fce5c75ff2ec04cd14b21bf82353d22d86e610b9a32317c545e60bf9955e4fc6c0cf35c2ad993276ba5f3d6d35849b5f3a9aa2768ee34d93d"
     },
     {
       "label":                     "RaStorage",
@@ -14,7 +15,8 @@
       "partition_size_nominal":    512,
       "want_maximised":            true,
       "uncompressed_tarball_size": 10,
-      "mkfs_options":              ""
+      "mkfs_options":              "",
+      "sha512sum":                "a9d5ac97391499af92358f1d12c476a4c9aa8e2e7eb63e157c4e5206ca6d852b20f2db6f41f05b69fa283ab7bca3d19ac6c3e7e29955b12900e4b1a24377e88a"
     }
   ]
 }

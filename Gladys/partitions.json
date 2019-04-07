@@ -6,7 +6,8 @@
       "mkfs_options":              "-F 32",
       "partition_size_nominal":    69,
       "uncompressed_tarball_size": 22,
-      "want_maximised":            false
+      "want_maximised":            false,
+      "sha512sum":                "e737e17b7f539529efb7545262875c1217cba67030ea44445bc48928cb0ac86fec63698b694f5ded1661d70efa3f55d831788ed93626236a51109af1c94d74aa"
     },
     {
       "label":                     "root",
@@ -14,7 +15,8 @@
       "mkfs_options":              "-O ^huge_file",
       "partition_size_nominal":    3000,
       "uncompressed_tarball_size": 2361,
-      "want_maximised":            true
+      "want_maximised":            true,
+      "sha512sum":                "6fb7e74c0200d110e3b4c00e70c66e0d555c9319d5f030c051bc170921ea949207e4b37e6ca18bbbd07bb8d704c57b4272eadadbb5fdd8838c961e65d6702fe7"
     }
   ]
 }

@@ -25,6 +25,9 @@ bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../pmb_root.tar .
 cd .. && umount mnt
 xz -9 -e pmb_root.tar
 
+sha512sum pmb_boot.tar.xz
+sha512sum pmb_root.tar.xz
+
 # Upload tarballs
 sftp matthuisman@frs.sourceforge.net
 cd /home/frs/project/pinn-matthuisman/os/Pi_MusicBox

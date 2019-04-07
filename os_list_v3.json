@@ -407,7 +407,7 @@
             "version": "1.8.0"
         },
         {
-            "description": "Recalbox, the open source retro gaming console (6.0.0-rc2)",
+            "description": "Recalbox, the open source retro gaming console (6.0.0-rc3)",
             "download_size": 280869964,
             "group": "Testing",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/recalboxOS-rpi1.png",
@@ -434,10 +434,10 @@
             ],
             "url": "https://www.recalbox.com/",
             "username": "root",
-            "version": "6.0.0-rc2"
+            "version": "6.0.0-rc3"
         },
         {
-            "description": "Recalbox, the open source retro gaming console (6.0.0-rc2)",
+            "description": "Recalbox, the open source retro gaming console (6.0.0-rc3)",
             "download_size": 280869964,
             "group": "Testing",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/recalboxOS-rpi2.png",
@@ -462,10 +462,10 @@
             ],
             "url": "https://www.recalbox.com/",
             "username": "root",
-            "version": "6.0.0-rc2"
+            "version": "6.0.0-rc3"
         },
         {
-            "description": "Recalbox, the open source retro gaming console (6.0.0-rc2)",
+            "description": "Recalbox, the open source retro gaming console (6.0.0-rc3)",
             "download_size": 280869964,
             "group": "Testing",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi3/recalboxOS-rpi3.png",
@@ -492,7 +492,7 @@
             ],
             "url": "https://www.recalbox.com/",
             "username": "root",
-            "version": "6.0.0-rc2"
+            "version": "6.0.0-rc3"
         },
         {
             "description": "Volumio is an open source audiophile music player",

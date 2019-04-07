@@ -25,6 +25,9 @@ bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../root.tar .
 cd .. && umount mnt
 xz -9 -e root.tar
 
+sha512sum boot.tar.xz
+sha512sum root.tar.xz
+
 # Upload tarballs
 sftp matthuisman@frs.sourceforge.net
 cd /home/frs/project/pinn-matthuisman/os/FedBerry

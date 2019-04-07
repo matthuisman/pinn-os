@@ -5,14 +5,16 @@
       "filesystem_type":           "FAT",
       "partition_size_nominal":    512,
       "want_maximised":            false,
-      "uncompressed_tarball_size": 26
+      "uncompressed_tarball_size": 26,
+      "sha512sum":                "cfaa6a7490c0015fa79d074413818059c81e0ebeb7cc348468bdd51688e59d1b92f68d7960a7dfde9a987aabc5ce97a87997a9ad2e43633f3bced965198e9ecb"
     },
     {
       "label":                     "root",
       "filesystem_type":           "ext4",
       "partition_size_nominal":    4380,
       "want_maximised":            true,
-      "uncompressed_tarball_size": 3880
+      "uncompressed_tarball_size": 3880,
+      "sha512sum":                "0abf807d3bb15d829d2828540dd22cabff46ee198f7a5109fb3f295acba7767d20cee80817d6e270f874308142e8278c50e930e2f744d524ee8b55fdd4a5674a"
     }
   ]
 }
