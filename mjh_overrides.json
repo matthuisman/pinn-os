@@ -1,0 +1,9 @@
+{
+    "tlxos": {
+        "supported_models": [
+            "Pi 2",
+            "Pi 3 Model B",
+            "Pi Compute Module 3"
+        ]
+    }
+}
