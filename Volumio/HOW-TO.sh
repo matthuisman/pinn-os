@@ -3,7 +3,7 @@
 apt-get update && apt-get install -y unzip bsdtar aria2
 
 cd ~ && mkdir mnt
-aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.522/volumio-2.522-2018-12-30-pi.img.zip
+aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.572/volumio-2.572-2019-04-13-pi.img.zip
 unzip volumio-*-pi.img.zip && rm volumio-*-pi.img.zip
 
 fdisk -l volumio-*-pi.img
@@ -45,16 +45,21 @@ umount mnt
 xz -9 -e volumio.tar
 
 # Get total download size in bytes
-echo $(($(wc -c < boot.tar.xz) + $(wc -c < volumio.tar.xz)))
+echo $(($(wc -c < boot.tar.xz) + $(wc -c < volumio.tar.xz)))   #os.json download_size
 
-sha512sum boot.tar.xz
-sha512sum volumio.tar.xz
+sha512sum boot.tar.xz     #boot sha512sum
+sha512sum volumio.tar.xz  #volumio sha512sum
 
-# Upload tarballs
+# Backup old & Upload new tarballs
 sftp matthuisman@frs.sourceforge.net
 cd /home/frs/project/pinn-matthuisman/os/Volumio
+
+rename boot.tar.xz     boot.tar.xz.bu
+rename volumio.tar.xz  volumio.tar.xz.bu
+
 put boot.tar.xz
 put volumio.tar.xz
+
 exit
 
 # UPDATE os.json

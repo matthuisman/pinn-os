@@ -64,4 +64,4 @@ for folder in os.listdir(dname):
 with open(OUTPUT, 'w', encoding='utf8') as f:
     f.write(json.dumps(DATA, sort_keys=True, indent=4, separators=(',', ': '), ensure_ascii=False))
 
-print("OK!")
+input("OK!")
