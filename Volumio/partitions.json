@@ -6,7 +6,7 @@
       "partition_size_nominal": 64,
       "want_maximised": false,
       "uncompressed_tarball_size": 37,
-      "sha512sum": "4b98f0b56705091572a4a8b69729a1b38b2e61de9f414b2860e12c32dca20b9ef86c7ffd83771ac7b1e953e508332e4284642d2377ccdeef4ce96961f7379eeb"
+      "sha512sum": "4593c6a136e7dee2d90348900660920da0c24c939e1f794de182d023ac11ef437175686623c26cac7345ba1d56ed675573f51a5bb34ba7f91f8bf49692caecdc"
     },
     {
       "label": "volumio",
@@ -15,7 +15,7 @@
       "want_maximised": false,
       "mkfs_options": "-O ^huge_file",
       "uncompressed_tarball_size": 307,
-      "sha512sum": "0715d5de55c769334be0bde605453d40d8c67e2538c38cab7748c0f0add8a83f7ad4165e4b990169964e9c07346480686547858e1ae7a8f23534e07e92af3f22"
+      "sha512sum": "c333732f3859d55a653e577e6ff0d092acfc8c4b19561a305b985b3c572f0c1ca2de9cc0679bb46f397d96774f92bc3d1e14c0a3d374eb5930ee8ababfd29c7f"
     },
     {
       "label": "volumio_data",

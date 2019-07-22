@@ -3,7 +3,7 @@
 apt-get update && apt-get install -y unzip bsdtar aria2
 
 cd ~ && mkdir mnt
-aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.572/volumio-2.572-2019-04-13-pi.img.zip
+aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.587/volumio-2.587-2019-06-11-pi.img.zip
 unzip volumio-*-pi.img.zip && rm volumio-*-pi.img.zip
 
 fdisk -l volumio-*-pi.img
