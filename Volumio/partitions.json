@@ -5,8 +5,8 @@
       "filesystem_type": "FAT",
       "partition_size_nominal": 64,
       "want_maximised": false,
-      "uncompressed_tarball_size": 37,
-      "sha512sum": "4593c6a136e7dee2d90348900660920da0c24c939e1f794de182d023ac11ef437175686623c26cac7345ba1d56ed675573f51a5bb34ba7f91f8bf49692caecdc"
+      "uncompressed_tarball_size": 59,
+      "sha512sum": "19e524a77984d8b21148bd5d2744781a1ff104ebebcd210b747543e69f24819e49a7987558f469ce4826b68fad7cad72d43ce1698e90fa420efd97785d1efdd1"
     },
     {
       "label": "volumio",
@@ -14,8 +14,8 @@
       "partition_size_nominal": 2436,
       "want_maximised": false,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 307,
-      "sha512sum": "c333732f3859d55a653e577e6ff0d092acfc8c4b19561a305b985b3c572f0c1ca2de9cc0679bb46f397d96774f92bc3d1e14c0a3d374eb5930ee8ababfd29c7f"
+      "uncompressed_tarball_size": 343,
+      "sha512sum": "f938f41625e0f063720a54df771c5b6fa6ca06d7d961f6e39201f34bb5a9e29a7d3e237f82ddbea58a16581abd828b8ed3799d80984ecd703e58dc3fcf208cb9"
     },
     {
       "label": "volumio_data",

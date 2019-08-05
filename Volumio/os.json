@@ -1,7 +1,7 @@
 {
     "name": "Volumio",
-    "version": "2.587",
-    "release_date": "2019-06-11",
+    "version": "2.599",
+    "release_date": "2019-08-02",
     "description": "Volumio is an open source audiophile music player",
     "url": "https://volumio.org/",
     "group": "Media",
@@ -10,8 +10,8 @@
     "supports_usb_boot": false,
     "supports_usb_root": false,
     "supports_backup": true,
-    "download_size": 341346084,
-    "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0",
+    "download_size": 386505000,
+    "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
     "supported_models": [
         "Pi Model",
         "Pi 2",
@@ -19,6 +19,7 @@
         "Pi Compute Module",
         "Pi 3 Model B Rev",
         "Pi 3 Model B Plus Rev",
-        "Pi 3 Model A Plus Rev"
+        "Pi 3 Model A Plus Rev",
+        "Pi 4 Model B Rev"
     ]
 }

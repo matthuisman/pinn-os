@@ -3,7 +3,7 @@
 apt-get update && apt-get install -y unzip bsdtar aria2
 
 cd ~ && mkdir mnt
-aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.587/volumio-2.587-2019-06-11-pi.img.zip
+aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.599/volumio-2.599-2019-08-02-pi.img.zip
 unzip volumio-*-pi.img.zip && rm volumio-*-pi.img.zip
 
 fdisk -l volumio-*-pi.img
@@ -53,6 +53,9 @@ sha512sum volumio.tar.xz  #volumio sha512sum
 # Backup old & Upload new tarballs
 sftp matthuisman@frs.sourceforge.net
 cd /home/frs/project/pinn-matthuisman/os/Volumio
+
+rm boot.tar.xz.bu
+rm volumio.tar.xz.bu
 
 rename boot.tar.xz     boot.tar.xz.bu
 rename volumio.tar.xz  volumio.tar.xz.bu
