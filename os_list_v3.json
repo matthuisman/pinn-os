@@ -186,7 +186,7 @@
         },
         {
             "description": "Highly optimized minimal Debian OS",
-            "download_size": 80635412,
+            "download_size": 107307988,
             "group": "Minimal",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/DietPi.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/marketing.tar",
@@ -196,15 +196,17 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
             "password": "dietpi",
-            "release_date": "2018-04-09",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3",
+            "release_date": "2019-07-03",
+            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
                 "Pi Compute Module",
                 "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev",
+                "Pi 4 Model B Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
@@ -215,7 +217,7 @@
             ],
             "url": "http://dietpi.com/",
             "username": "root",
-            "version": "v6.6"
+            "version": "v6.25"
         },
         {
             "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware (xfce)",

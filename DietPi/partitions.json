@@ -5,8 +5,8 @@
       "filesystem_type": "FAT",
       "partition_size_nominal": 60,
       "want_maximised": false,
-      "uncompressed_tarball_size": 23,
-      "sha512sum": "fd925c65d01e63980badaefa5fe72f4cd46ff7ad2985524726b6e88df1ed42af5049b653102c179b7207e6383d17d9840bcbf886c0104216659618b4161aa019"
+      "uncompressed_tarball_size": 41,
+      "sha512sum": "2131e826e9064170b38a0431d95cfee41e95d32132af80bfa8013f2725434ef52f0496c34435d06d87ed648cc5851048160c78bd6665183d386ee2a40279c5a7"
     },
     {
       "label": "root",
@@ -14,8 +14,8 @@
       "partition_size_nominal": 1500,
       "want_maximised": true,
       "mkfs_options": "-O ^huge_file",
-      "uncompressed_tarball_size": 460,
-      "sha512sum": "92ca2289f423d7ed5bade37e8c0742973cf97864b3e8cf7ba72bf2706fcafb321e4eaacc452b3fe88d772bd3963eae0b89e107220b943faff283aaf69574ad67"
+      "uncompressed_tarball_size": 474,
+      "sha512sum": "572fc484fa25b17d0859429933f61166b73e3f22b967525026d259c090ec43034ffc86daf7aa677732603d4badd085459ff8e8876d84ce57fe9303d455919766"
     }
   ]
 }
