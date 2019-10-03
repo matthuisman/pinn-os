@@ -1,7 +1,7 @@
 {
     "name": "recalboxOS-rpi2",
-    "version": "6.0.0",
-    "release_date": "2019-04-12",
+    "version": "6.1",
+    "release_date": "2019-09-25",
     "description": "Recalbox, the open source retro gaming console",
     "url": "https://www.recalbox.com/",
     "group": "Games",
@@ -10,7 +10,7 @@
     "supports_usb_boot": true,
     "supports_usb_root": true,
     "supports_backup": true,
-    "download_size": 280869964,
+    "download_size": 333188204,
     "supported_hex_revisions": "1040,1041",
     "supported_models": [
         "Pi 2"

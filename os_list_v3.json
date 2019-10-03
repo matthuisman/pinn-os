@@ -410,7 +410,7 @@
         },
         {
             "description": "Recalbox, the open source retro gaming console",
-            "download_size": 280869964,
+            "download_size": 333188204,
             "group": "Games",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/recalboxOS-rpi1.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/marketing.tar",
@@ -420,7 +420,7 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi1/partitions.json",
             "password": "recalboxroot",
-            "release_date": "2019-04-12",
+            "release_date": "2019-09-25",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
                 "Pi Model",
@@ -436,11 +436,11 @@
             ],
             "url": "https://www.recalbox.com/",
             "username": "root",
-            "version": "6.0.0"
+            "version": "6.1"
         },
         {
             "description": "Recalbox, the open source retro gaming console",
-            "download_size": 280869964,
+            "download_size": 333188204,
             "group": "Games",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/recalboxOS-rpi2.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/marketing.tar",
@@ -450,7 +450,7 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi2/partitions.json",
             "password": "recalboxroot",
-            "release_date": "2019-04-12",
+            "release_date": "2019-09-25",
             "supported_hex_revisions": "1040,1041",
             "supported_models": [
                 "Pi 2"
@@ -464,11 +464,11 @@
             ],
             "url": "https://www.recalbox.com/",
             "username": "root",
-            "version": "6.0.0"
+            "version": "6.1"
         },
         {
             "description": "Recalbox, the open source retro gaming console",
-            "download_size": 280869964,
+            "download_size": 333188204,
             "group": "Games",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi3/recalboxOS-rpi3.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi3/marketing.tar",
@@ -478,12 +478,13 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi3/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/recalboxOS-rpi3/partitions.json",
             "password": "recalboxroot",
-            "release_date": "2019-04-12",
+            "release_date": "2019-09-25",
             "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
                 "Pi Compute Module 3",
                 "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3 Model B Plus Rev",
+                "Pi 3 Model A Plus Rev"
             ],
             "supports_backup": true,
             "supports_usb_boot": true,
@@ -494,7 +495,7 @@
             ],
             "url": "https://www.recalbox.com/",
             "username": "root",
-            "version": "6.0.0"
+            "version": "6.1"
         },
         {
             "description": "Volumio is an open source audiophile music player",
