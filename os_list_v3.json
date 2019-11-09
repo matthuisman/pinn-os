@@ -89,7 +89,7 @@
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
-                "http://batocera-linux.xorhub.com/upgrades/rpi1/stable/last/boot.tar.xz"
+                "http://batocera.org/upgrades/rpi1/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera-linux.xorhub.com/",
             "username": "root",
@@ -116,7 +116,7 @@
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
-                "http://batocera-linux.xorhub.com/upgrades/rpi2/stable/last/boot.tar.xz"
+                "http://batocera.org/upgrades/rpi2/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera-linux.xorhub.com/",
             "username": "root",
@@ -145,7 +145,7 @@
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
-                "http://batocera-linux.xorhub.com/upgrades/rpi3/stable/last/boot.tar.xz"
+                "http://batocera.org/upgrades/rpi3/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera-linux.xorhub.com/",
             "username": "root",
