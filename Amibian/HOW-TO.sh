@@ -15,7 +15,7 @@ du -h -m --max-depth=0 mnt    #boot uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar -cpf ../boot.tar .
 cd .. && umount mnt
-xz -9 -e boot.tar
+xz -T0 -9 -e boot.tar
 
 # root tarball
 mount -o loop,ro,norecovery,offset=$((125056*512)) amibian*.img mnt
@@ -23,7 +23,7 @@ du -h -m --max-depth=0 mnt     #root uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../root.tar .
 cd .. && umount mnt
-xz -9 -e root.tar
+xz -T0 -9 -e root.tar
 
 sha512sum boot.tar.xz
 sha512sum root.tar.xz

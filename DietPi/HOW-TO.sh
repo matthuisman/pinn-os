@@ -15,7 +15,7 @@ du -h -m --max-depth=0 mnt    #boot uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar -cpf ../boot.tar .
 cd .. && umount mnt
-xz -9 -e boot.tar
+xz -T0 -9 -e boot.tar
 
 # root tarball
 mount -o loop,ro,offset=$((540672*512)) DietPi_v*_RPi-ARMv6-Buster.img mnt
@@ -23,7 +23,7 @@ du -h -m --max-depth=0 mnt    #root uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../root.tar .
 cd .. && umount mnt
-xz -9 -e root.tar
+xz -T0 -9 -e root.tar
 
 # Get total download size in bytes
 echo $(($(wc -c < boot.tar.xz) + $(wc -c < root.tar.xz)))   #os.json download_size

@@ -15,7 +15,7 @@ du -h -m --max-depth=0 mnt    #pmb_boot uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar -cpf ../pmb_boot.tar .
 cd .. && umount mnt
-xz -9 -e pmb_boot.tar
+xz -T0 -9 -e pmb_boot.tar
 
 # pmb_root (partition 2) tarball
 mount -o loop,ro,offset=$((122880*512)) musicbox_*.img mnt
@@ -23,7 +23,7 @@ du -h -m --max-depth=0 mnt     #pmb_root uncompressed_tarball_size
 cd mnt
 bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../pmb_root.tar .
 cd .. && umount mnt
-xz -9 -e pmb_root.tar
+xz -T0 -9 -e pmb_root.tar
 
 sha512sum pmb_boot.tar.xz
 sha512sum pmb_root.tar.xz
