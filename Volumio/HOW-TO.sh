@@ -3,7 +3,7 @@
 apt-get update && apt-get install -y unzip bsdtar aria2
 
 cd ~ && mkdir mnt
-aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.619/volumio-2.619-2019-09-24-pi.img.zip
+aria2c -x 4 -s 4 http://updates.volumio.org/pi/volumio/2.692/volumio-2.692-2019-12-19-pi.img.zip
 unzip volumio-*-pi.img.zip && rm volumio-*-pi.img.zip
 
 fdisk -l volumio-*-pi.img
@@ -32,7 +32,7 @@ cd ..
 rm -r init
 du -h -m --max-depth=0 mnt  #boot uncompressed_tarball_size
 umount mnt
-xz -9 -e boot.tar
+xz -T0 -9 -e boot.tar
 
 # volumio tarball
 mount -o loop,rw,offset=$((125001*512)) volumio-*-pi.img mnt
@@ -42,7 +42,7 @@ bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../volumio.tar .
 cd ..
 du -h -m --max-depth=0 mnt    #volumio uncompressed_tarball_size
 umount mnt
-xz -9 -e volumio.tar
+xz -T0 -9 -e volumio.tar
 
 # Get total download size in bytes
 echo $(($(wc -c < boot.tar.xz) + $(wc -c < volumio.tar.xz)))   #os.json download_size
