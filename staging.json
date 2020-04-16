@@ -72,12 +72,12 @@
             "group": "Games",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/batocera_RPi1.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/marketing.tar",
-            "nominal_size": 3096,
+            "nominal_size": 1200,
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/os.json",
             "os_name": "batocera_RPi1",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partitions.json",
-            "password": "linux",
+            "password": "recalboxroot",
             "release_date": "2018-05-01",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
@@ -91,7 +91,7 @@
             "tarballs": [
                 "http://batocera.org/upgrades/rpi1/stable/last/boot.tar.xz"
             ],
-            "url": "https://batocera.org",
+            "url": "https://batocera-linux.xorhub.com/",
             "username": "root",
             "version": "5.15"
         },
@@ -101,12 +101,12 @@
             "group": "Games",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/batocera_RPi2.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/marketing.tar",
-            "nominal_size": 3096,
+            "nominal_size": 1200,
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/os.json",
             "os_name": "batocera_RPi2",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partitions.json",
-            "password": "linux",
+            "password": "recalboxroot",
             "release_date": "2018-05-01",
             "supported_hex_revisions": "1040,1041",
             "supported_models": [
@@ -118,23 +118,23 @@
             "tarballs": [
                 "http://batocera.org/upgrades/rpi2/stable/last/boot.tar.xz"
             ],
-            "url": "https://batocera.org/",
+            "url": "https://batocera-linux.xorhub.com/",
             "username": "root",
             "version": "5.15"
         },
         {
             "description": "batocera.linux, the open source retro gaming console",
-            "download_size": 797885940,
+            "download_size": 401376612,
             "group": "Games",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/batocera_RPi3.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/marketing.tar",
-            "nominal_size": 3096,
+            "nominal_size": 1200,
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/os.json",
             "os_name": "batocera_RPi3",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partitions.json",
-            "password": "linux",
-            "release_date": "2020-03-09",
+            "password": "recalboxroot",
+            "release_date": "2018-05-01",
             "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
                 "Pi Compute Module 3",
@@ -147,37 +147,9 @@
             "tarballs": [
                 "http://batocera.org/upgrades/rpi3/stable/last/boot.tar.xz"
             ],
-            "url": "https://batocera.org/",
+            "url": "https://batocera-linux.xorhub.com/",
             "username": "root",
-            "version": "5.25"
-        },
-        {
-            "description": "batocera, the open source retro gaming console",
-            "download_size": 822813660,
-            "group": "Games",
-            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4.png",
-            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/marketing.tar",
-            "nominal_size": 3096,
-            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/os.json",
-            "os_name": "batocera_RPi4",
-            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/partition_setup.sh",
-            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/partitions.json",
-            "password": "linux",
-            "release_date": "2020-04-15",
-            "supported_hex_revisions": "3111,3112",
-            "supported_models": [
-                "Pi 4 Model B",
-                "Pi 4 Model B Rev 1.1"
-            ],
-            "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
-            "tarballs": [
-                "https://batocera.org/upgrades/rpi4/beta/last/boot.tar.xz"
-            ],
-            "url": "https://batocera.org/",
-            "username": "root",
-            "version": "5.26 beta"
+            "version": "5.15"
         },
         {
             "description": "Transform your Raspberry into a Commodore",
