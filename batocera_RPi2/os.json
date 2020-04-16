@@ -1,16 +1,16 @@
 {
     "name": "batocera_RPi2",
-    "version": "5.15",
-    "release_date": "2018-05-01",
+    "version": "5.25",
+    "release_date": "2020-03-10",
     "description": "batocera.linux, the open source retro gaming console",
-    "url": "https://batocera-linux.xorhub.com/",
+    "url": "https://batocera.org",
     "group": "Games",
     "username": "root",
     "password": "recalboxroot",
     "supports_usb_boot": true,
     "supports_usb_root": true,
     "supports_backup": true,
-    "download_size": 388137776,
+    "download_size": 782392720,
     "supported_hex_revisions": "1040,1041",
     "supported_models": [
         "Pi 2"
