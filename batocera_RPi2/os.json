@@ -6,7 +6,7 @@
     "url": "https://batocera.org",
     "group": "Games",
     "username": "root",
-    "password": "recalboxroot",
+    "password": "linux",
     "supports_usb_boot": true,
     "supports_usb_root": true,
     "supports_backup": true,
