@@ -1,0 +1,19 @@
+{
+  "partitions": [
+    {
+      "label":                     "BATOCERA",
+      "tarball":                   "boot.tar.xz",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    3096,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 1602,
+      "mkfs_options":              ""
+    },
+    {
+      "label":                     "SHARE",
+      "filesystem_type":           "ext4",
+      "want_maximised":            true,
+      "empty_fs":                  true
+    }
+  ]
+}
