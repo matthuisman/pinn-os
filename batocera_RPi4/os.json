@@ -1,7 +1,7 @@
 {
     "name": "batocera_RPi4",
-    "version": "5.26 beta",
-    "release_date": "2020-04-15",
+    "version": "5.26",
+    "release_date": "2020-04-26",
     "description": "batocera.linux, the open source retro gaming console",
     "url": "https://batocera.org",
     "group": "Games",
@@ -10,7 +10,7 @@
     "supports_usb_boot": true,
     "supports_usb_root": true,
     "supports_backup": true,
-    "download_size": 822813660,
+    "download_size": 853072192,
     "supported_hex_revisions": "3111,3112",
     "supported_models": [
         "Pi 4 Model B"
