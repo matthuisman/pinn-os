@@ -153,7 +153,7 @@
         },
         {
             "description": "batocera.linux, the open source retro gaming console",
-            "download_size": 822813660,
+            "download_size": 853072192,
             "group": "Games",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/batocera_RPi4.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/marketing.tar",
@@ -163,7 +163,7 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partitions.json",
             "password": "linux",
-            "release_date": "2020-04-15",
+            "release_date": "2020-04-26",
             "supported_hex_revisions": "3111,3112",
             "supported_models": [
                 "Pi 4 Model B"
@@ -172,11 +172,11 @@
             "supports_usb_boot": true,
             "supports_usb_root": true,
             "tarballs": [
-                "https://batocera.org/upgrades/rpi4/beta/last/boot.tar.xz"
+                "https://batocera.org/upgrades/rpi4/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera.org",
             "username": "root",
-            "version": "5.26 beta"
+            "version": "5.26"
         },
         {
             "description": "Transform your Raspberry into a Commodore",
