@@ -1,6 +1,0 @@
-{
-    "tarballs": [
-        "https://recalbox-releases.s3.nl-ams.scw.cloud/stable/v2/upgrade/rpi3/boot.tar.xz",
-        "https://recalbox-releases.s3.nl-ams.scw.cloud/stable/v2/upgrade/rpi3/root.tar.xz"
-    ]
-}
