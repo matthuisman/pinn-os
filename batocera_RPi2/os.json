@@ -7,8 +7,6 @@
     "group": "Games",
     "username": "root",
     "password": "linux",
-    "supports_usb_boot": true,
-    "supports_usb_root": true,
     "supports_backup": true,
     "download_size": 782392720,
     "supported_hex_revisions": "1040,1041",

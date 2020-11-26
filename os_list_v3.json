@@ -24,8 +24,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Alpine/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Alpine/root.tar.xz"
@@ -58,8 +56,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Amibian/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Amibian/root.tar.xz"
@@ -88,8 +84,6 @@
                 "Pi Zero"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "https://updates.batocera.org/rpi1/stable/last/boot.tar.xz"
             ],
@@ -115,8 +109,6 @@
                 "Pi 2"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "https://updates.batocera.org/rpi2/stable/last/boot.tar.xz"
             ],
@@ -144,8 +136,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "https://updates.batocera.org/rpi3/stable/last/boot.tar.xz"
             ],
@@ -168,11 +158,11 @@
             "release_date": "2020-04-26",
             "supported_hex_revisions": "3111,3112",
             "supported_models": [
-                "Pi 4 Model B"
+                "Pi Compute Module 4",
+                "Pi 4 Model B Rev",
+                "Pi 400"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "https://updates.batocera.org/rpi4/stable/last/boot.tar.xz"
             ],
@@ -204,8 +194,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Combian/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Combian/root.tar.xz"
@@ -234,14 +222,14 @@
                 "Pi Zero",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
+                "Pi Compute Module 4",
                 "Pi 3 Model B Rev",
                 "Pi 3 Model B Plus Rev",
                 "Pi 3 Model A Plus Rev",
-                "Pi 4 Model B Rev"
+                "Pi 4 Model B Rev",
+                "Pi 400"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/DietPi/root.tar.xz"
@@ -271,8 +259,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/FedBerry/root.tar.xz"
@@ -305,8 +291,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Gladys/root.tar.xz"
@@ -339,8 +323,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
             "tarballs": [
                 "http://downloads.kano.me/public/noobs/link/boot.tar.xz",
                 "http://downloads.kano.me/public/noobs/link/root.tar.xz"
@@ -373,8 +355,6 @@
                 "Pi 3 Model B Plus Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/pmb_boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Pi_MusicBox/pmb_root.tar.xz"
@@ -403,8 +383,6 @@
                 "Pi Zero"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaSystem.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaStorage.tar.xz"
@@ -432,8 +410,6 @@
                 "Pi 3 Model B Rev"
             ],
             "supports_backup": true,
-            "supports_usb_boot": true,
-            "supports_usb_root": true,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaSystem.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaStorage.tar.xz"
@@ -462,14 +438,14 @@
                 "Pi Zero",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
+                "Pi Compute Module 4",
                 "Pi 3 Model B Rev",
                 "Pi 3 Model B Plus Rev",
                 "Pi 3 Model A Plus Rev",
-                "Pi 4 Model B Rev"
+                "Pi 4 Model B Rev",
+                "Pi 400"
             ],
             "supports_backup": true,
-            "supports_usb_boot": false,
-            "supports_usb_root": false,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/volumio.tar.xz"

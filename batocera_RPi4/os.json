@@ -7,12 +7,12 @@
     "group": "Games",
     "username": "root",
     "password": "linux",
-    "supports_usb_boot": true,
-    "supports_usb_root": true,
     "supports_backup": true,
     "download_size": 853072192,
     "supported_hex_revisions": "3111,3112",
     "supported_models": [
-        "Pi 4 Model B"
+        "Pi Compute Module 4",
+        "Pi 4 Model B Rev",
+        "Pi 400"
     ]
 }

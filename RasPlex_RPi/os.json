@@ -7,8 +7,6 @@
     "group": "Media",
     "username": "root",
     "password": "rasplex",
-    "supports_usb_boot": true,
-    "supports_usb_root": true,
     "supports_backup": true,
     "download_size": 116791108,
     "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
