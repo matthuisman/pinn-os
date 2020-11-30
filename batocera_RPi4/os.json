@@ -12,7 +12,6 @@
     "supported_hex_revisions": "3111,3112",
     "supported_models": [
         "Pi Compute Module 4",
-        "Pi 4 Model B Rev",
-        "Pi 400"
+        "Pi 4"
     ]
 }

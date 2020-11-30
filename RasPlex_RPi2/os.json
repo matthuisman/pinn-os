@@ -12,6 +12,6 @@
     "supported_hex_revisions": "1040,1041,2082",
     "supported_models": [
         "Pi 2",
-        "Pi 3 Model B Rev"
+        "Pi 3"
     ]
 }

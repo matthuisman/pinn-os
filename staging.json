@@ -20,8 +20,7 @@
                 "Pi Zero",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -52,8 +51,7 @@
                 "Pi Zero",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -132,8 +130,7 @@
             "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
                 "Pi Compute Module 3",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -159,8 +156,7 @@
             "supported_hex_revisions": "3111,3112",
             "supported_models": [
                 "Pi Compute Module 4",
-                "Pi 4 Model B Rev",
-                "Pi 400"
+                "Pi 4"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -190,8 +186,7 @@
                 "Pi Zero",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -220,14 +215,9 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi Compute Module Rev",
-                "Pi Compute Module 3",
-                "Pi Compute Module 4",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev",
-                "Pi 4 Model B Rev",
-                "Pi 400"
+                "Pi Compute Module",
+                "Pi 3",
+                "Pi 4"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -255,8 +245,7 @@
             "supported_models": [
                 "Pi 2",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -287,8 +276,7 @@
                 "Pi Zero",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -351,8 +339,7 @@
                 "Pi Zero",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -407,7 +394,7 @@
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi 2",
-                "Pi 3 Model B Rev"
+                "Pi 3"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -436,14 +423,9 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero",
-                "Pi Compute Module Rev",
-                "Pi Compute Module 3",
-                "Pi Compute Module 4",
-                "Pi 3 Model B Rev",
-                "Pi 3 Model B Plus Rev",
-                "Pi 3 Model A Plus Rev",
-                "Pi 4 Model B Rev",
-                "Pi 400"
+                "Pi Compute Module",
+                "Pi 3",
+                "Pi 4"
             ],
             "supports_backup": true,
             "tarballs": [
