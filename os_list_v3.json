@@ -407,7 +407,7 @@
         },
         {
             "description": "Volumio is an open source audiophile music player",
-            "download_size": 399151668,
+            "download_size": 378751352,
             "group": "Media",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/Volumio.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/marketing.tar",
@@ -428,6 +428,8 @@
                 "Pi 4"
             ],
             "supports_backup": true,
+            "supports_usb_boot": false,
+            "supports_usb_root": false,
             "tarballs": [
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/boot.tar.xz",
                 "http://downloads.sourceforge.net/project/pinn-matthuisman/os/Volumio/volumio.tar.xz"

@@ -13,23 +13,18 @@ fdisk -l volumio-*-pi.img
 mount -o loop,rw,offset=$((1*512)) volumio-*-pi.img mnt
 
 ## Make new initrd
-cp mnt/volumio.initrd volumio.initrd
-
-mkdir init && cd init
-zcat ../volumio.initrd | cpio --extract
+mkdir build && cd build
+zcat ../mnt/volumio.initrd | cpio --extract
+rm -f ../mnt/volumio.initrd
 rm init
 wget https://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/init
 chmod +x init
-find . 2>/dev/null | cpio --quiet --dereference -o -H newc | gzip -9 > ../volumio.initrd
+find . 2>/dev/null | cpio --quiet -o -H newc | gzip -9 > ../mnt/volumio.initrd
 ######
 
 cd ../mnt
-rm volumio.initrd
-cp ../volumio.initrd .
-
 bsdtar --numeric-owner --format gnutar -cpf ../boot.tar .
 cd ..
-rm -r init
 du -h -m --max-depth=0 mnt  #boot uncompressed_tarball_size
 umount mnt
 xz -T0 -9 -e boot.tar
@@ -37,7 +32,6 @@ xz -T0 -9 -e boot.tar
 # volumio tarball
 mount -o loop,rw,offset=$((125001*512)) volumio-*-pi.img mnt
 cd mnt
-cp ../volumio.initrd .
 bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../volumio.tar .
 cd ..
 du -h -m --max-depth=0 mnt    #volumio uncompressed_tarball_size

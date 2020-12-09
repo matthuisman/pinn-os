@@ -292,12 +292,39 @@ fi
 if [ -e "/boot/kernel_update" ]; then
 print_msg "unpacking kernel"
   cmdline="$(cat /boot/cmdline.txt)"
+
+  print_msg "Extracting init from current volumio.initrd"
+  rm -rf /mnt/imgpart/initbuild
+  rm -f /mnt/imgpart/init
+
+  mkdir /mnt/imgpart/initbuild
+  cd /mnt/imgpart/initbuild
+  zcat /boot/volumio.initrd | cpio --extract
+  cp init /mnt/imgpart/init
+  rm -rf /mnt/imgpart/initbuild
+
+  print_msg "Updating Kernel"
   tar xf /mnt/imgpart/kernel_current.tar -C /boot
+
   print_msg "Restoring cmdline.txt"
   echo "$cmdline" > /boot/cmdline.txt
-  print_msg "Restoring volumio.initrd"
-  rm /boot/volumio.initrd
-  cp /mnt/imgpart/volumio.initrd /boot/volumio.initrd
+
+  print_msg "Extracting new volumio.initrd"
+  mkdir /mnt/imgpart/initbuild
+  cd /mnt/imgpart/initbuild
+  zcat /boot/volumio.initrd | cpio --extract
+  rm init
+  cp /mnt/imgpart/init .
+  chmod +x init
+  rm -f /mnt/imgpart/init
+
+  print_msg "Rebuilding volumio.initrd (this takes a few mins)"
+  find . 2>/dev/null | cpio --quiet -o -H newc | gzip -9 > /mnt/imgpart/volumio.initrd
+  rm -rf /mnt/imgpart/initbuild
+
+  rm -f /boot/volumio.initrd
+  mv /mnt/imgpart/volumio.initrd /boot/volumio.initrd
+
   if [ -e "/mnt/imgpart/config.txt.bak" ]; then
     print_msg "Restoring custom config.txt content"
     I2S=`sed -n -e '/#### Volumio i2s setting below: do not alter ####/,$p' /mnt/imgpart/config.txt.bak`
@@ -353,4 +380,3 @@ exec switch_root /mnt/ext/union /sbin/init
 
 print_msg "Failed to switch_root, dropping to a shell"
 exec sh
-
