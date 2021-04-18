@@ -1,14 +1,14 @@
 {
     "name": "batocera_RPi3",
-    "version": "5.25",
-    "release_date": "2020-03-09",
+    "version": "30",
+    "release_date": "2021-03-06",
     "description": "batocera.linux, the open source retro gaming console",
     "url": "https://batocera.org/",
     "group": "Games",
     "username": "root",
     "password": "linux",
     "supports_backup": true,
-    "download_size": 797885940,
+    "download_size": 845268244,
     "supported_hex_revisions": "2082,20d3,20e0",
     "supported_models": [
         "Pi Compute Module 3",
