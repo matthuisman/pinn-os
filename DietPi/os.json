@@ -2,7 +2,7 @@
     "name": "DietPi",
     "version": "v7.5.2",
     "release_date": "2021-08-20",
-    "description": "Highly optimized minimal Debian OS",
+    "description": "Highly optimized minimal Debian OS (ARMv6 32-bit Bullseye)",
     "url": "http://dietpi.com/",
     "group": "Minimal",
     "username": "root",
