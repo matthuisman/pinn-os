@@ -1,7 +1,7 @@
 import os, json
 
 URL_BASE = "http://raw.githubusercontent.com/matthuisman/pinn-os/master/{folder}/{file}"
-OUTPUT = "staging.json"
+OUTPUT = "os_list_v3.json"
 
 IGNORES = ['hassio_RPi3']
 
@@ -21,7 +21,7 @@ DATA = {'os_list': []}
 for folder in os.listdir(dname):
     if folder in IGNORES:
         continue
-        
+
     folder_path = os.path.join(dname, folder)
     if not os.path.isdir(folder_path):
         continue
