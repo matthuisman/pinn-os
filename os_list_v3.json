@@ -19,6 +19,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -51,6 +52,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -133,7 +135,8 @@
             "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
                 "Pi Compute Module 3",
-                "Pi 3"
+                "Pi 3",
+                "Pi Zero 2"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -188,6 +191,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -220,6 +224,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module",
                 "Pi 3",
                 "Pi 4"
@@ -250,6 +255,7 @@
             "supported_models": [
                 "Pi Compute Module 3",
                 "Pi Compute Module 4",
+                "Pi Zero 2",
                 "Pi 3",
                 "Pi 4"
             ],
@@ -279,6 +285,7 @@
             "supported_models": [
                 "Pi 2",
                 "Pi Compute Module 3",
+                "Pi Zero 2",
                 "Pi 3"
             ],
             "supports_backup": true,
@@ -309,6 +316,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -341,6 +349,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3 Model B Rev",
@@ -374,6 +383,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -432,6 +442,7 @@
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi 2",
+                "Pi Zero 2",
                 "Pi 3"
             ],
             "supports_backup": true,
@@ -462,6 +473,7 @@
                 "Pi 2",
                 "Pi Zero Rev",
                 "Pi Zero W Rev",
+                "Pi Zero 2",
                 "Pi Compute Module",
                 "Pi 3",
                 "Pi 4"
