@@ -15,7 +15,7 @@
     "supported_models": [
         "Pi Model",
         "Pi 2",
-        "Pi Zero",
+        "Pi Zero Rev",
         "Pi Compute Module",
         "Pi 3",
         "Pi 4"
