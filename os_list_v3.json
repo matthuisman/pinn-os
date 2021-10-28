@@ -18,6 +18,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -49,6 +50,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -79,7 +81,8 @@
             "supported_models": [
                 "Pi Model",
                 "Pi Compute Module Rev",
-                "Pi Zero Rev"
+                "Pi Zero Rev",
+                "Pi Zero W Rev"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -184,6 +187,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -215,6 +219,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module",
                 "Pi 3",
                 "Pi 4"
@@ -303,6 +308,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -334,6 +340,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3 Model B Rev",
@@ -366,6 +373,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module Rev",
                 "Pi Compute Module 3",
                 "Pi 3"
@@ -396,7 +404,8 @@
             "supported_models": [
                 "Pi Model",
                 "Pi Compute Module Rev",
-                "Pi Zero Rev"
+                "Pi Zero Rev",
+                "Pi Zero W Rev"
             ],
             "supports_backup": true,
             "tarballs": [
@@ -452,6 +461,7 @@
                 "Pi Model",
                 "Pi 2",
                 "Pi Zero Rev",
+                "Pi Zero W Rev",
                 "Pi Compute Module",
                 "Pi 3",
                 "Pi 4"

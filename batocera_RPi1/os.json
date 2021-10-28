@@ -13,6 +13,7 @@
     "supported_models": [
         "Pi Model",
         "Pi Compute Module Rev",
-        "Pi Zero Rev"
+        "Pi Zero Rev",
+        "Pi Zero W Rev"
     ]
 }
