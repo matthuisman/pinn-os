@@ -12,7 +12,6 @@
     "supported_hex_revisions": "2082,20d3,20e0",
     "supported_models": [
         "Pi Compute Module 3",
-        "Pi 3",
-        "Pi Zero 2"
+        "Pi 3"
     ]
 }

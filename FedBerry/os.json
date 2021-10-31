@@ -13,7 +13,6 @@
     "supported_models": [
         "Pi 2",
         "Pi Compute Module 3",
-        "Pi Zero 2",
         "Pi 3"
     ]
 }
