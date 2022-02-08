@@ -1,16 +1,16 @@
-# Debian 9 VPS 4 vCore 8192 MB Silicon Valley
+# Debian 9 VPS 4 vCore 8GB Silicon Valley
 
 apt-get update && apt-get install -y unzip bsdtar aria2
 
 cd ~ && mkdir mnt
-aria2c -x 4 -s 4 https://updates.volumio.org/pi/volumio/2.882/volumio-2.882-2021-04-24-pi.img.zip
-unzip volumio-*-pi.img.zip && rm volumio-*-pi.img.zip
+aria2c -x 4 -s 4 https://updates.volumio.org/pi/volumio/3.198/Volumio-3.198-2022-01-24-pi.zip
+unzip Volumio-*-pi.zip && rm Volumio-*-pi.zip
 
-fdisk -l volumio-*-pi.img
+fdisk -l Volumio-*-pi.img
 # Start Sector * Sector Size = Below Offsets
 
 # boot tarball
-mount -o loop,rw,offset=$((1*512)) volumio-*-pi.img mnt
+mount -o loop,rw,offset=$((1*512)) Volumio-*-pi.img mnt
 
 ## Make new initrd
 mkdir build && cd build
@@ -30,7 +30,7 @@ umount mnt
 xz -T0 -9 -e boot.tar
 
 # volumio tarball
-mount -o loop,rw,offset=$((125001*512)) volumio-*-pi.img mnt
+mount -o loop,rw,offset=$((188416*512)) Volumio-*-pi.img mnt
 cd mnt
 bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../volumio.tar .
 cd ..
