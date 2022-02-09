@@ -1,4 +1,4 @@
-# Debian 9 VPS 2 vCore 8192 MB Silicon Valley
+# Debian 9 8GB Silicon Valley
 
 apt-get update && apt-get install -y p7zip bsdtar aria2
 
@@ -13,6 +13,7 @@ fdisk -l DietPi_RPi-ARMv6-Bullseye.img
 mount -o loop,ro,offset=$((8192*512)) DietPi_RPi-ARMv6-Bullseye.img mnt
 du -h -m --max-depth=0 mnt    #boot uncompressed_tarball_size
 cd mnt
+cat dietpi/.version   #version = {G_DIETPI_VERSION_CORE}.{G_DIETPI_VERSION_SUB}.{G_DIETPI_VERSION_RC}
 bsdtar --numeric-owner --format gnutar -cpf ../boot.tar .
 cd .. && umount mnt
 xz -T0 -9 -e boot.tar
@@ -25,7 +26,6 @@ bsdtar --numeric-owner --format gnutar --one-file-system -cpf ../root.tar .
 cd .. && umount mnt
 xz -T0 -9 -e root.tar
 
-# Get total download size in bytes
 echo $(($(wc -c < boot.tar.xz) + $(wc -c < root.tar.xz)))   #os.json download_size
 
 sha512sum boot.tar.xz  #boot sha512sum

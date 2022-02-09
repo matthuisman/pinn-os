@@ -6,7 +6,7 @@
       "partition_size_nominal": 128,
       "want_maximised": false,
       "uncompressed_tarball_size": 32,
-      "sha512sum": "7a664166e86c7637d78e3f33ef40ab9d7ece432927ef2fafd7f806435bfb973a067caed6efc655f3bda849109b6e69f7a94bc3f7935a4c1874aef20fd205d9a3"
+      "sha512sum": "6c53a2f3d7c1f4fd67d9466fa829a2186e8076357806d73d16d69aa42ba99d98f21d31e6be2ccc7f2d44517efa7f1b61656ef9ef0673c7e71c73f9cc5cd03a3d"
     },
     {
       "label": "root",
@@ -15,7 +15,7 @@
       "want_maximised": true,
       "mkfs_options": "-O ^huge_file",
       "uncompressed_tarball_size": 556,
-      "sha512sum": "6492cf8a89b01bd940c9e807ea7828e8f9e467f5b4b3cf6fb68e4fff921aa724b16713f95bd2a2f8aa9eda45b85f3e0a0603377ccb5a8e175ec82a16f0417308"
+      "sha512sum": "4c830592377c14b8689e395d76f627e7b5f92064c0674a2337a93adbe57a5e8b02b9ba4351881534dfddc674c159026f9d8d42e6fe286da7f04c789073b18d64"
     }
   ]
 }

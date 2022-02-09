@@ -1,14 +1,14 @@
 {
     "name": "DietPi",
-    "version": "v7.5.2",
-    "release_date": "2021-08-20",
+    "version": "v7.9.3",
+    "release_date": "2021-12-12",
     "description": "Highly optimized minimal Debian OS (ARMv6 32-bit Bullseye)",
     "url": "http://dietpi.com/",
     "group": "Minimal",
     "username": "root",
     "password": "dietpi",
     "supports_backup": true,
-    "download_size": 173926860,
+    "download_size": 168662068,
     "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
     "supported_models": [
         "Pi Model",

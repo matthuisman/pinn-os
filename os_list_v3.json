@@ -203,7 +203,7 @@
         },
         {
             "description": "Highly optimized minimal Debian OS (ARMv6 32-bit Bullseye)",
-            "download_size": 173926860,
+            "download_size": 168662068,
             "group": "Minimal",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/DietPi.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/marketing.tar",
@@ -213,7 +213,7 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi/partitions.json",
             "password": "dietpi",
-            "release_date": "2021-08-20",
+            "release_date": "2021-12-12",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
             "supported_models": [
                 "Pi Model",
@@ -231,11 +231,11 @@
             ],
             "url": "http://dietpi.com/",
             "username": "root",
-            "version": "v7.5.2"
+            "version": "v7.9.3"
         },
         {
             "description": "Highly optimized minimal Debian OS (ARMv8 64-bit Bullseye)",
-            "download_size": 122578564,
+            "download_size": 122999112,
             "group": "Minimal",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/DietPi_64.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/marketing.tar",
@@ -245,7 +245,7 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/DietPi_64/partitions.json",
             "password": "dietpi",
-            "release_date": "2021-08-20",
+            "release_date": "2021-12-12",
             "supported_hex_revisions": "2082,20d3,20e0,3111,3112",
             "supported_models": [
                 "Pi Compute Module 3",
@@ -260,7 +260,7 @@
             ],
             "url": "http://dietpi.com/",
             "username": "root",
-            "version": "v7.5.2"
+            "version": "v7.9.3"
         },
         {
             "description": "An optimised Fedora remix which fully supports all RPi2/3 hardware (xfce)",
