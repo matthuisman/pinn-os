@@ -76,7 +76,6 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi1/partitions.json",
             "password": "linux",
-            "release_date": "2021-03-06",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
                 "Pi Model",
@@ -90,7 +89,7 @@
             ],
             "url": "https://batocera.org/",
             "username": "root",
-            "version": "30"
+            "version": "latest"
         },
         {
             "description": "batocera.linux, the open source retro gaming console",
@@ -104,7 +103,6 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi2/partitions.json",
             "password": "linux",
-            "release_date": "2021-03-06",
             "supported_hex_revisions": "1040,1041",
             "supported_models": [
                 "Pi 2"
@@ -115,7 +113,7 @@
             ],
             "url": "https://batocera.org",
             "username": "root",
-            "version": "30"
+            "version": "latest"
         },
         {
             "description": "batocera.linux, the open source retro gaming console",
@@ -129,7 +127,6 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi3/partitions.json",
             "password": "linux",
-            "release_date": "2021-03-06",
             "supported_hex_revisions": "2082,20d3,20e0",
             "supported_models": [
                 "Pi Compute Module 3",
@@ -141,7 +138,7 @@
             ],
             "url": "https://batocera.org/",
             "username": "root",
-            "version": "30"
+            "version": "latest"
         },
         {
             "description": "batocera.linux, the open source retro gaming console",
@@ -155,7 +152,6 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/batocera_RPi4/partitions.json",
             "password": "linux",
-            "release_date": "2021-03-06",
             "supported_hex_revisions": "3111,3112",
             "supported_models": [
                 "Pi Compute Module 4",
@@ -167,7 +163,7 @@
             ],
             "url": "https://batocera.org",
             "username": "root",
-            "version": "30"
+            "version": "latest"
         },
         {
             "description": "Transform your Raspberry into a Commodore",

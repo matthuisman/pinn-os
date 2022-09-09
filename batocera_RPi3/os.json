@@ -1,7 +1,6 @@
 {
     "name": "batocera_RPi3",
-    "version": "30",
-    "release_date": "2021-03-06",
+    "version": "latest",
     "description": "batocera.linux, the open source retro gaming console",
     "url": "https://batocera.org/",
     "group": "Games",
