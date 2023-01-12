@@ -3,9 +3,9 @@
     {
       "label":                     "boot",
       "filesystem_type":           "FAT",
-      "partition_size_nominal":    70,
+      "partition_size_nominal":    256,
       "want_maximised":            false,
-      "uncompressed_tarball_size": 22,
+      "uncompressed_tarball_size": 46,
       "sha512sum":                 "37f7f12e8834bd3829a52d9f8f1dcd271b7601546f19977e850cd0f2e6b80cc0a77a3672a6b2d932af0483d3997984c4e560c3f8c550d5d64f441e2d02eaa554"
     },
     {
