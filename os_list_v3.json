@@ -385,7 +385,7 @@
         },
         {
             "description": "A Plex Client for the Raspberry Pi computer",
-            "download_size": 116791108,
+            "download_size": 133428380,
             "group": "Media",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/RasPlex_RPi.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/marketing.tar",
@@ -395,7 +395,7 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi/partitions.json",
             "password": "rasplex",
-            "release_date": "2017-03-21",
+            "release_date": "2021-10-02",
             "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,0092,0093",
             "supported_models": [
                 "Pi Model",
@@ -405,16 +405,15 @@
             ],
             "supports_backup": true,
             "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaSystem.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaStorage.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/boot.tar.xz"
             ],
             "url": "http://www.rasplex.com/",
             "username": "root",
-            "version": "1.8.0"
+            "version": "1.8.0b"
         },
         {
             "description": "A Plex Client for the Raspberry Pi computer",
-            "download_size": 116592712,
+            "download_size": 133310252,
             "group": "Media",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/RasPlex_RPi2.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/marketing.tar",
@@ -424,20 +423,45 @@
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi2/partitions.json",
             "password": "rasplex",
-            "release_date": "2017-03-21",
+            "release_date": "2021-10-02",
             "supported_hex_revisions": "1040,1041,2082",
             "supported_models": [
                 "Pi 2",
-                "Pi 3"
+                "Pi 3 Model B Rev",
+                "Pi 3 Model A"
             ],
             "supports_backup": true,
             "tarballs": [
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaSystem.tar.xz",
-                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/RaStorage.tar.xz"
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi2/boot.tar.xz"
             ],
             "url": "http://www.rasplex.com/",
             "username": "root",
-            "version": "1.8.0"
+            "version": "1.8.0b"
+        },
+        {
+            "description": "A Plex Client for the Raspberry Pi computer",
+            "download_size": 136066460,
+            "group": "Media",
+            "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi3+/RasPlex_RPi3+.png",
+            "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi3+/marketing.tar",
+            "nominal_size": 1024,
+            "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi3+/os.json",
+            "os_name": "RasPlex_RPi3+",
+            "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi3+/partition_setup.sh",
+            "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/RasPlex_RPi3+/partitions.json",
+            "password": "rasplex",
+            "release_date": "2021-10-02",
+            "supported_hex_revisions": "20d3",
+            "supported_models": [
+                "Pi 3 Model B Plus"
+            ],
+            "supports_backup": true,
+            "tarballs": [
+                "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi3+/boot.tar.xz"
+            ],
+            "url": "http://www.rasplex.com/",
+            "username": "root",
+            "version": "1.8.0b"
         },
         {
             "description": "Volumio is an open source audiophile music player",
