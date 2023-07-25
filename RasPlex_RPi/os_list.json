@@ -1,6 +1,5 @@
 {
     "tarballs": [
-        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaSystem.tar.xz",
-        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/RaStorage.tar.xz"
+        "http://downloads.sourceforge.net/project/pinn-matthuisman/os/RasPlex_RPi/boot.tar.xz"
     ]
 }
