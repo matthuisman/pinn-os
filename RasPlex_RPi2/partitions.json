@@ -5,18 +5,16 @@
       "filesystem_type":           "FAT",
       "partition_size_nominal":    512,
       "want_maximised":            false,
-      "uncompressed_tarball_size": 120,
+      "uncompressed_tarball_size": 133,
       "mkfs_options":              "",
-      "sha512sum":                 "b434d3523930e00ff127a8ff7fda0598819f2a0845c26e8588f9c4bca72932ed177b51b63667986e7cfe306792de8d8eec7b398fa65af891375d32b958702dce"
+      "sha512sum":                 "24f56617d9e7ce1a31f60b17d7c5b20625fe73cf94a778b5e674125c79dcc7ad83591deba135f78fab8f91e0f6c94b04e23036e345dc99bc421b5ffdb0bc5a76"
     },
     {
       "label":                     "RaStorage",
       "filesystem_type":           "ext4",
       "partition_size_nominal":    512,
       "want_maximised":            true,
-      "uncompressed_tarball_size": 10,
-      "mkfs_options":              "",
-      "sha512sum":                 "a9d5ac97391499af92358f1d12c476a4c9aa8e2e7eb63e157c4e5206ca6d852b20f2db6f41f05b69fa283ab7bca3d19ac6c3e7e29955b12900e4b1a24377e88a"
+      "empty_fs":                  true
     }
   ]
 }
