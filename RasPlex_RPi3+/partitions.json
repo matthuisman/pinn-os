@@ -1,0 +1,20 @@
+{
+  "partitions": [
+    {
+      "label":                     "RaSystem",
+      "filesystem_type":           "FAT",
+      "partition_size_nominal":    512,
+      "want_maximised":            false,
+      "uncompressed_tarball_size": 136,
+      "mkfs_options":              "",
+      "sha512sum":                 "9a85260ffbd796632ffc9cf8a59ca4f61e48037a2fb7e27698b547685ef40e678e6512fe416719de14daefb12850037c2e66e6d36b53d3281081e81575c6b24e"
+    },
+    {
+      "label":                     "RaStorage",
+      "filesystem_type":           "ext4",
+      "partition_size_nominal":    512,
+      "want_maximised":            true,
+      "empty_fs":                  true
+    }
+  ]
+}

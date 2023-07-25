@@ -1,5 +1,5 @@
 {
-    "name": "RasPlex_RPi2",
+    "name": "RasPlex_RPi3+",
     "version": "1.8.0b",
     "release_date": "2021-10-02",
     "description": "A Plex Client for the Raspberry Pi computer",
@@ -8,11 +8,9 @@
     "username": "root",
     "password": "rasplex",
     "supports_backup": true,
-    "download_size": 133310252,
-    "supported_hex_revisions": "1040,1041,2082",
+    "download_size": 136066460,
+    "supported_hex_revisions": "20d3",
     "supported_models": [
-        "Pi 2",
-        "Pi 3 Model B Rev",
-        "Pi 3 Model A"
+        "Pi 3 Model B Plus"
     ]
 }
