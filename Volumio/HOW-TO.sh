@@ -1,9 +1,9 @@
-# Debian 9 VPS 4 vCore 8GB Silicon Valley
+# 4 GB Memory / 2 Intel vCPUs / 120 GB Disk / SFO3 - Debian 10 x64
 
-apt-get update && apt-get install -y unzip bsdtar aria2
+apt-get update && apt-get install -y unzip bsdtar aria2 xz-utils
 
 cd ~ && mkdir mnt
-aria2c -x 4 -s 4 https://updates.volumio.org/pi/volumio/3.198/Volumio-3.198-2022-01-24-pi.zip
+aria2c -x 4 -s 4 https://updates.volumio.org/pi/volumio/3.616/Volumio-3.616-2024-02-13-pi.zip
 unzip Volumio-*-pi.zip && rm Volumio-*-pi.zip
 
 fdisk -l Volumio-*-pi.img

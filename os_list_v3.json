@@ -466,18 +466,17 @@
         },
         {
             "description": "Volumio is an open source audiophile music player",
-            "download_size": 406274180,
+            "download_size": 547286372,
             "group": "Media",
             "icon": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/Volumio.png",
             "marketing_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/marketing.tar",
-            "nominal_size": 2800,
+            "nominal_size": 3120,
             "os_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/os.json",
             "os_name": "Volumio",
             "partition_setup": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partition_setup.sh",
             "partitions_info": "http://raw.githubusercontent.com/matthuisman/pinn-os/master/Volumio/partitions.json",
             "password": "volumio",
-            "release_date": "2022-01-24",
-            "supported_hex_revisions": "2,3,4,5,6,7,8,9,d,e,f,10,11,12,14,19,1040,1041,0092,0093,2082,20d3,20e0,3111",
+            "release_date": "2024-02-13",
             "supported_models": [
                 "Pi Model",
                 "Pi 2",
@@ -485,7 +484,8 @@
                 "Pi Zero W Rev",
                 "Pi Compute Module",
                 "Pi 3",
-                "Pi 4"
+                "Pi 4",
+                "Pi 5"
             ],
             "supports_backup": true,
             "supports_usb_boot": false,
@@ -496,7 +496,7 @@
             ],
             "url": "https://volumio.org/",
             "username": "volumio",
-            "version": "3.198"
+            "version": "3.616"
         }
     ]
 }
