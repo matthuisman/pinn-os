@@ -9,7 +9,6 @@
     "password": "",
     "supports_backup": true,
     "download_size": 844258704,
-    "supported_hex_revisions": "1040,1041,2082,20d3",
     "supported_models": [
         "Pi 2",
         "Pi Compute Module 3",

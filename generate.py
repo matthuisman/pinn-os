@@ -59,6 +59,8 @@ for folder in os.listdir(dname):
         with open(os.path.join(folder_path, "os_list.json"), "r", encoding='utf8') as f:
             system.update(json.loads(f.read()))
 
+    system.pop('supported_hex_revisions', None)
+
     DATA['os_list'].append(system)
 
 with open(OUTPUT, 'w', encoding='utf8') as f:

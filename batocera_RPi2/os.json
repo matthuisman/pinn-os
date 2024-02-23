@@ -8,7 +8,6 @@
     "password": "linux",
     "supports_backup": true,
     "download_size": 845268244,
-    "supported_hex_revisions": "1040,1041",
     "supported_models": [
         "Pi 2"
     ]

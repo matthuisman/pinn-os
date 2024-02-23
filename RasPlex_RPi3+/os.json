@@ -9,7 +9,6 @@
     "password": "rasplex",
     "supports_backup": true,
     "download_size": 136066460,
-    "supported_hex_revisions": "20d3",
     "supported_models": [
         "Pi 3 Model B Plus"
     ]

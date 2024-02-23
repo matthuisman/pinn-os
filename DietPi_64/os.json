@@ -9,7 +9,6 @@
     "password": "dietpi",
     "supports_backup": true,
     "download_size": 122999112,
-    "supported_hex_revisions": "2082,20d3,20e0,3111,3112",
     "supported_models": [
         "Pi Zero 2 W",
         "Pi Compute Module 3",

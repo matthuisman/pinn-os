@@ -8,7 +8,6 @@
     "password": "linux",
     "supports_backup": true,
     "download_size": 845268244,
-    "supported_hex_revisions": "3111,3112",
     "supported_models": [
         "Pi Compute Module 4",
         "Pi 4"
