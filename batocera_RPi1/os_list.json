@@ -1,5 +1,5 @@
 {
     "tarballs": [
-        "https://updates.batocera.org/rpi1/stable/last/boot.tar.xz"
+        "https://updates.batocera.org/bcm2835/stable/last/boot.tar.xz"
     ]
 }
