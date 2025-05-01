@@ -82,7 +82,7 @@
             ],
             "supports_backup": true,
             "tarballs": [
-                "https://updates.batocera.org/rpi1/stable/last/boot.tar.xz"
+                "https://updates.batocera.org/bcm2835/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera.org/",
             "username": "root",
@@ -105,7 +105,7 @@
             ],
             "supports_backup": true,
             "tarballs": [
-                "https://updates.batocera.org/rpi2/stable/last/boot.tar.xz"
+                "https://updates.batocera.org/bcm2836/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera.org",
             "username": "root",
@@ -129,7 +129,7 @@
             ],
             "supports_backup": true,
             "tarballs": [
-                "https://updates.batocera.org/rpi3/stable/last/boot.tar.xz"
+                "https://updates.batocera.org/bcm2837/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera.org/",
             "username": "root",
@@ -153,7 +153,7 @@
             ],
             "supports_backup": true,
             "tarballs": [
-                "https://updates.batocera.org/rpi464/stable/last/boot.tar.xz"
+                "https://updates.batocera.org/bcm2711/stable/last/boot.tar.xz"
             ],
             "url": "https://batocera.org",
             "username": "root",
