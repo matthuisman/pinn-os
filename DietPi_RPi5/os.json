@@ -1,0 +1,15 @@
+{
+    "name": "DietPi_RPi5",
+    "version": "v9.12",
+    "release_date": "2025-04-18",
+    "description": "Highly optimized minimal Debian OS (ARMv8 64-bit Bookworm)",
+    "url": "http://dietpi.com/",
+    "group": "Minimal",
+    "username": "root",
+    "password": "dietpi",
+    "supports_backup": true,
+    "download_size": 158576904,
+    "supported_models": [
+        "Pi 5"
+    ]
+}
